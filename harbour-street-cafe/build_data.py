@@ -41,28 +41,37 @@ def read(path):
         raw = list(csv.reader(path.open(newline="")))
     header, body = raw[0], raw[1:]
     assert [h for h in header][:4] == ["Date", "Item", "Qty", "Unit Price"], header
-    rows, skipped = [], Counter()
+    # lines: every line in file order; data lines as tuples, others kept raw.
+    rows, lines, extra = [], [], Counter()
     for r in body:
         if not r or not any(c not in (None, "") for c in r):
-            skipped["blank lines"] += 1
-            continue
-        if r[0] in (None, "") and str(r[1]).strip().upper() == "TOTAL":
-            skipped["TOTAL line"] += 1
-            file_total = float(r[4])
-            continue
-        rows.append((parse_date(r[0]), r[1], int(r[2]), float(r[3]), float(r[4])))
-    return header, rows, skipped
+            extra["blank lines"] += 1
+            lines.append(("raw", ["", "", "", "", ""]))
+        elif r[0] in (None, "") and str(r[1]).strip().upper() == "TOTAL":
+            extra["TOTAL line"] += 1
+            extra_total = float(r[4])
+            lines.append(("raw", ["", r[1], "", "", r[4]]))
+        else:
+            t = (parse_date(r[0]), r[1], int(r[2]), float(r[3]), float(r[4]))
+            rows.append(t)
+            lines.append(("row", t))
+    if extra["TOTAL line"]:
+        assert abs(extra_total - sum(r[4] for r in rows)) < 0.005, "TOTAL line disagrees with rows"
+    return header, rows, lines, dict(extra)
 
 combined, months, notes = [], OrderedDict(), []
 for month, name in MONTHS:
     path = find(name)
-    header, rows, skipped = read(path)
+    header, rows, lines, extra = read(path)
     file_total = round(sum(r[4] for r in rows), 2)
-    seen, kept, dupes = set(), [], []
+    # Repeated (date, item) rows are kept as the owner asked; only reported.
+    seen, dupes = set(), []
     for r in rows:
         key = (r[0], r[1])
-        (dupes if key in seen else kept).append(r)
+        if key in seen:
+            dupes.append(r)
         seen.add(key)
+    kept = rows
     for r in kept:
         assert r[1] in ITEMS and r[0].strftime("%B") == month, r
         assert abs(r[2] * r[3] - r[4]) < 0.005, r
@@ -79,21 +88,25 @@ for month, name in MONTHS:
         "rows": len(kept), "revenue": round(sum(r[4] for r in kept), 2),
         "units": sum(r[2] for r in kept), "tradingDays": len(days),
         "firstDay": days[0].isoformat(), "lastDay": days[-1].isoformat(),
-        "removedRows": len(dupes),
-        "removedRevenue": round(sum(r[4] for r in dupes), 2),
-        "removedDays": sorted({r[0].isoformat() for r in dupes}),
-        "skipped": dict(skipped),
+        "repeatedRows": len(dupes),
+        "repeatedRevenue": round(sum(r[4] for r in dupes), 2),
+        "repeatedDays": sorted({r[0].isoformat() for r in dupes}),
+        "extraLines": extra,
         "revenueCol": header[4],
         "items": by_item,
     }
-    combined += [(r, month) for r in kept]
+    combined += [(l, month) for l in lines]
 
-combined.sort(key=lambda x: (x[0][0], ITEMS.index(x[0][1])))
+# Files are concatenated in month order, each in its own line order, so the
+# kept blank and TOTAL lines stay where they were.
 with (OUT / "harbour-street-cafe-sales-2026-H1.csv").open("w", newline="") as fh:
     w = csv.writer(fh)
     w.writerow(["Date", "Item", "Qty", "Unit Price", "Revenue", "Month"])
-    for r, m in combined:
-        w.writerow([r[0].isoformat(), r[1], r[2], f"{r[3]:g}", f"{r[4]:.2f}", m])
+    for (kind, r), m in combined:
+        if kind == "raw":
+            w.writerow(r + [m])
+        else:
+            w.writerow([r[0].isoformat(), r[1], r[2], f"{r[3]:g}", f"{r[4]:.2f}", m])
 
 data = {"generated": dt.date.today().isoformat(), "items": ITEMS, "months": months}
 (OUT / "dashboard-data.json").write_text(json.dumps(data, indent=1))
@@ -101,10 +114,10 @@ data = {"generated": dt.date.today().isoformat(), "items": ITEMS, "months": mont
 print(f"{'Month':10}{'file rows':>10}{'kept':>6}{'file total':>12}{'dashboard':>12}  notes")
 for m, v in months.items():
     note = []
-    if v["removedRows"]: note.append(f"removed {v['removedRows']} repeated rows ({', '.join(v['removedDays'])}) = {v['removedRevenue']:.2f}")
-    if v["skipped"]: note.append("skipped " + ", ".join(f"{n} {k}" for k, n in v["skipped"].items()))
+    if v["repeatedRows"]: note.append(f"kept {v['repeatedRows']} repeated rows ({', '.join(v['repeatedDays'])}) = {v['repeatedRevenue']:.2f}")
+    if v["extraLines"]: note.append("kept, not counted: " + ", ".join(f"{n} {k}" for k, n in v["extraLines"].items()))
     print(f"{m:10}{v['fileRows']:>10}{v['rows']:>6}{v['fileTotal']:>12,.2f}{v['revenue']:>12,.2f}  {'; '.join(note)}")
-print(f"{'TOTAL':10}{sum(v['fileRows'] for v in months.values()):>10}{len(combined):>6}"
+print(f"{'TOTAL':10}{sum(v['fileRows'] for v in months.values()):>10}{sum(v['rows'] for v in months.values()):>6}"
       f"{sum(v['fileTotal'] for v in months.values()):>12,.2f}{sum(v['revenue'] for v in months.values()):>12,.2f}")
 tot = {i: sum(v["items"][i]["revenue"] for v in months.values()) for i in ITEMS}
 print("H1 item ranking:", sorted(((round(t,2), i) for i, t in tot.items()), reverse=True))

@@ -465,27 +465,27 @@ function renderCheck() {
     const d = DATA.months[m];
     fileSum += d.fileTotal; dashSum += d.revenue; fileRows += d.fileRows; keptRows += d.rows;
     const notes = [];
-    if (d.removedRows) notes.push(`Removed ${d.removedRows} rows that repeat ${d.removedDays.map(x => +x.slice(8) ).join(" and ")} ${m} exactly (${sgd(d.removedRevenue)}).`);
-    if (d.skipped["blank lines"]) notes.push(`Skipped ${d.skipped["blank lines"]} blank lines.`);
-    if (d.skipped["TOTAL line"]) notes.push(`Skipped the file's own TOTAL line; it agrees with the rows.`);
+    if (d.repeatedRows) notes.push(`Includes ${d.repeatedRows} rows that repeat ${d.repeatedDays.map(x => +x.slice(8)).join(" and ")} ${m} (${sgd(d.repeatedRevenue)}), kept as recorded.`);
+    const bl = d.extraLines["blank lines"], tl = d.extraLines["TOTAL line"];
+    if (bl || tl) notes.push(`${[bl && `${bl} blank lines`, tl && "a TOTAL line"].filter(Boolean).join(" and ")} kept in the combined sheet but not counted.${tl ? " The TOTAL agrees with the rows." : ""}`);
     if (d.revenueCol !== "Revenue") notes.push(`Revenue column is named “${esc(d.revenueCol)}”.`);
     const same = Math.abs(d.fileTotal - d.revenue) < 0.005;
     return `<tr class="${current === m ? "sel" : ""}"><td>${m}</td><td>${esc(d.file)}</td><td>${num(d.fileRows)}</td>
-      <td>${sgd(d.fileTotal)}</td><td class="match">${sgd(d.revenue)}${same ? "" : `<span class="pill">adjusted</span>`}</td>
+      <td>${sgd(d.fileTotal)}</td><td class="match">${sgd(d.revenue)}${same ? "" : `<span class="pill">differs</span>`}</td>
       <td class="note">${notes.join(" ") || "Matches."}</td></tr>`;
   }).join("");
   document.getElementById("check").innerHTML =
     `<thead><tr><th scope="col">Month</th><th scope="col">File</th><th scope="col">Rows</th><th scope="col">File total</th><th scope="col">Dashboard</th><th scope="col" style="text-align:left">Notes</th></tr></thead>
      <tbody>${rows}</tbody>
      <tfoot><tr><td>Jan–Jun</td><td></td><td>${num(fileRows)}</td><td>${sgd(fileSum)}</td><td>${sgd(dashSum)}</td>
-     <td class="note">Difference ${sgd(fileSum - dashSum)} is the repeated April rows. ${num(keptRows)} rows used.</td></tr></tfoot>`;
+     <td class="note">${Math.abs(fileSum - dashSum) < 0.005 ? "Matches the files." : `Differs from the files by ${sgd(fileSum - dashSum)}.`} ${num(keptRows)} sales rows counted.</td></tr></tfoot>`;
 }
 
 function renderSource() {
   const gen = new Date(DATA.generated + "T00:00:00").toLocaleDateString("en-SG", { day: "numeric", month: "long", year: "numeric" });
   document.getElementById("source").innerHTML = `
     <p><strong>Source:</strong> snapshot of six monthly sales exports (${MONTHS.map(m => esc(DATA.months[m].file)).join(", ")}), combined into harbour-street-cafe-sales-2026-H1.csv on ${gen}. This is not a live connection; new sales will not appear until the page is rebuilt.</p>
-    <p>The exports record daily quantity sold per item, not individual orders, so the dashboard shows items sold rather than order counts. All amounts are in Singapore dollars.</p>`;
+    <p>The exports record daily quantity sold per item, not individual orders, so the dashboard shows items sold rather than order counts. The café is closed on Mondays. All amounts are in Singapore dollars.</p>`;
 }
 
 function render() {

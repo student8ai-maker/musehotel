@@ -823,6 +823,22 @@ Date,Item,Qty,Unit Price,Revenue,Month
 2026-04-30,Banana Bread,14,4.8,67.20,April
 2026-04-30,Kaya Toast,21,3.5,73.50,April
 2026-04-30,Chicken Sandwich,8,8.9,71.20,April
+2026-04-14,Flat White,32,5.5,176.00,April
+2026-04-14,Latte,25,5.8,145.00,April
+2026-04-14,Long Black,13,4.5,58.50,April
+2026-04-14,Iced Kopi,31,3.8,117.80,April
+2026-04-14,Croissant,21,4.2,88.20,April
+2026-04-14,Banana Bread,12,4.8,57.60,April
+2026-04-14,Kaya Toast,24,3.5,84.00,April
+2026-04-14,Chicken Sandwich,9,8.9,80.10,April
+2026-04-15,Flat White,31,5.5,170.50,April
+2026-04-15,Latte,47,5.8,272.60,April
+2026-04-15,Long Black,13,4.5,58.50,April
+2026-04-15,Iced Kopi,45,3.8,171.00,April
+2026-04-15,Croissant,16,4.2,67.20,April
+2026-04-15,Banana Bread,12,4.8,57.60,April
+2026-04-15,Kaya Toast,23,3.5,80.50,April
+2026-04-15,Chicken Sandwich,12,8.9,106.80,April
 2026-05-01,Flat White,25,5.5,137.50,May
 2026-05-01,Latte,37,5.8,214.60,May
 2026-05-01,Long Black,10,4.5,45.00,May
@@ -1080,7 +1096,9 @@ Date,Item,Qty,Unit Price,Revenue,Month
 2026-06-06,Kaya Toast,35,3.5,122.50,June
 2026-06-06,Chicken Sandwich,15,8.9,133.50,June
 2026-06-07,Flat White,41,5.5,225.50,June
+,,,,,June
 2026-06-07,Latte,58,5.8,336.40,June
+,,,,,June
 2026-06-07,Long Black,20,4.5,90.00,June
 2026-06-07,Iced Kopi,41,3.8,155.80,June
 2026-06-07,Croissant,23,4.2,96.60,June
@@ -1170,6 +1188,7 @@ Date,Item,Qty,Unit Price,Revenue,Month
 2026-06-20,Flat White,30,5.5,165.00,June
 2026-06-20,Latte,51,5.8,295.80,June
 2026-06-20,Long Black,19,4.5,85.50,June
+,,,,,June
 2026-06-20,Iced Kopi,32,3.8,121.60,June
 2026-06-20,Croissant,20,4.2,84.00,June
 2026-06-20,Banana Bread,18,4.8,86.40,June
@@ -1239,3 +1258,4 @@ Date,Item,Qty,Unit Price,Revenue,Month
 2026-06-30,Banana Bread,12,4.8,57.60,June
 2026-06-30,Kaya Toast,25,3.5,87.50,June
 2026-06-30,Chicken Sandwich,10,8.9,89.00,June
+,TOTAL,,,25193.0,June
