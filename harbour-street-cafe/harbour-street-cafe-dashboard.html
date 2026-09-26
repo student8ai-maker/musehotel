@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Harbour Street Café Sales</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap">
+<style>
+:root {
+  color-scheme: light;
+  --ground: #f3f6f7;
+  --panel: #ffffff;
+  --ink: #13212b;
+  --ink-2: #4f606b;
+  --ink-3: #72838d;
+  --rule: #dce3e7;
+  --grid: #e8edf0;
+  --bar: #2a78d6;
+  --bar-dim: #b7d3f6;
+  --bar-hover: #1c5cab;
+  --focus: #2a78d6;
+  --tip-bg: #13212b;
+  --tip-ink: #ffffff;
+  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --body: "Figtree", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --ground: #0f171c;
+    --panel: #172229;
+    --ink: #eef3f5;
+    --ink-2: #b3c1c9;
+    --ink-3: #8a9ba5;
+    --rule: #2a3a43;
+    --grid: #223038;
+    --bar: #3987e5;
+    --bar-dim: #1f4a7c;
+    --bar-hover: #6da7ec;
+    --focus: #6da7ec;
+    --tip-bg: #eef3f5;
+    --tip-ink: #13212b;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ground: #0f171c;
+  --panel: #172229;
+  --ink: #eef3f5;
+  --ink-2: #b3c1c9;
+  --ink-3: #8a9ba5;
+  --rule: #2a3a43;
+  --grid: #223038;
+  --bar: #3987e5;
+  --bar-dim: #1f4a7c;
+  --bar-hover: #6da7ec;
+  --focus: #6da7ec;
+  --tip-bg: #eef3f5;
+  --tip-ink: #13212b;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font: 15px/1.5 var(--body);
+  font-variant-numeric: tabular-nums;
+}
+.wrap {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-inline: 20px;
+  padding-block: 28px 40px;
+  display: grid;
+  gap: 20px;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px 24px;
+}
+.eyebrow {
+  margin: 0 0 4px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+h1 {
+  margin: 0;
+  font: 700 clamp(26px, 4.4vw, 36px)/1.1 var(--display);
+  letter-spacing: -.01em;
+  text-wrap: balance;
+}
+.picker { display: grid; gap: 4px; }
+.picker label { font-size: 12px; font-weight: 600; color: var(--ink-2); }
+select {
+  font: 500 15px var(--body);
+  color: var(--ink);
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 9px 36px 9px 12px;
+  min-width: 220px;
+  max-width: 100%;
+  appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--ink-2) 50%), linear-gradient(135deg, var(--ink-2) 50%, transparent 50%);
+  background-position: calc(100% - 18px) 55%, calc(100% - 13px) 55%;
+  background-size: 5px 5px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+select:focus-visible, .col:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+}
+.kpi { padding: 16px 20px; display: grid; gap: 2px; align-content: start; }
+.kpi + .kpi { border-left: 1px solid var(--rule); }
+.kpi dt { font-size: 13px; color: var(--ink-2); font-weight: 500; }
+.kpi dd { margin: 0; font: 700 clamp(22px, 3vw, 30px)/1.2 var(--display); }
+.kpi .sub { font-size: 13px; color: var(--ink-3); min-height: 1.5em; }
+
+.panels { display: grid; grid-template-columns: 1.15fr 1fr; gap: 20px; }
+section.panel {
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  padding: 18px 20px 20px;
+  min-width: 0;
+}
+h2 { margin: 0; font: 700 18px/1.3 var(--display); }
+.panel .hint { margin: 2px 0 12px; font-size: 13px; color: var(--ink-3); }
+.chart { position: relative; }
+svg { display: block; width: 100%; height: auto; overflow: visible; }
+svg text { fill: var(--ink-2); font: 12px var(--body); font-variant-numeric: tabular-nums; }
+svg .val { fill: var(--ink); font-weight: 600; }
+svg .name { fill: var(--ink); font-size: 13px; font-weight: 500; }
+svg .gridline { stroke: var(--grid); stroke-width: 1; }
+svg .baseline { stroke: var(--rule); stroke-width: 1; }
+.col { cursor: pointer; }
+.col .mark { fill: var(--bar-dim); transition: fill .15s; }
+.col.on .mark { fill: var(--bar); }
+.col:hover .mark { fill: var(--bar-hover); }
+.col .hit { fill: transparent; }
+.hbar .mark { fill: var(--bar); }
+.hbar:hover .mark { fill: var(--bar-hover); }
+.hbar .hit { fill: transparent; }
+
+.tip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--tip-bg);
+  color: var(--tip-ink);
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 7px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+  transform: translate(-50%, calc(-100% - 10px));
+  z-index: 2;
+}
+.tip b { font-weight: 600; }
+
+.tablewrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { padding: 8px 10px; text-align: right; white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; padding-left: 0; }
+th:last-child, td:last-child { padding-right: 0; }
+thead th { font-size: 12px; font-weight: 600; color: var(--ink-2); border-bottom: 1px solid var(--rule); }
+tbody td { border-bottom: 1px solid var(--grid); }
+tbody tr.top td:first-child { font-weight: 600; }
+tfoot td { font-weight: 600; border-top: 1px solid var(--rule); }
+.rank { display: inline-block; width: 1.6em; color: var(--ink-3); font-weight: 500; }
+.pill {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  padding: 1px 7px;
+  border-radius: 99px;
+  border: 1px solid var(--bar);
+  color: var(--ink);
+  margin-left: 6px;
+}
+tr.sel td { background: color-mix(in srgb, var(--bar) 9%, transparent); }
+td.note { text-align: left; white-space: normal; min-width: 220px; color: var(--ink-2); font-size: 13px; }
+.match { font-weight: 600; }
+
+footer { font-size: 13px; color: var(--ink-3); display: grid; gap: 6px; max-width: 80ch; }
+footer p { margin: 0; }
+footer strong { color: var(--ink-2); font-weight: 600; }
+
+@media (max-width: 820px) {
+  .panels { grid-template-columns: 1fr; }
+  .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .kpi:nth-child(3) { border-left: 0; }
+  .kpi:nth-child(n+3) { border-top: 1px solid var(--rule); }
+}
+@media (max-width: 460px) {
+  .wrap { padding-inline: 16px; }
+  .kpi { padding: 14px 14px; }
+  .kpi dd { font-size: 21px; }
+  select { min-width: 0; width: 100%; }
+  .picker { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <p class="eyebrow">Sales dashboard · January–June 2026</p>
+      <h1>Harbour Street Café</h1>
+    </div>
+    <div class="picker">
+      <label for="month">Show</label>
+      <select id="month"></select>
+    </div>
+  </header>
+
+  <dl class="kpis" id="kpis"></dl>
+
+  <div class="panels">
+    <section class="panel" aria-labelledby="h-monthly">
+      <h2 id="h-monthly">Revenue by month</h2>
+      <p class="hint">SGD. Click a bar to select that month.</p>
+      <div class="chart" id="monthly"></div>
+    </section>
+    <section class="panel" aria-labelledby="h-top">
+      <h2 id="h-top">Top 5 items by revenue</h2>
+      <p class="hint" id="top-hint"></p>
+      <div class="chart" id="top5"></div>
+    </section>
+  </div>
+
+  <section class="panel" aria-labelledby="h-items">
+    <h2 id="h-items">All menu items</h2>
+    <p class="hint" id="items-hint"></p>
+    <div class="tablewrap"><table id="items"></table></div>
+  </section>
+
+  <section class="panel" aria-labelledby="h-check">
+    <h2 id="h-check">Checking against the files</h2>
+    <p class="hint">Revenue in each source file compared with the figure this dashboard uses.</p>
+    <div class="tablewrap"><table id="check"></table></div>
+  </section>
+
+  <footer id="source"></footer>
+</div>
+
+<script>
+const DATA = {"generated":"2026-09-26","items":["Flat White","Latte","Long Black","Iced Kopi","Croissant","Banana Bread","Kaya Toast","Chicken Sandwich"],"months":{"January":{"file":"2026-01-sales.csv","fileRows":216,"fileTotal":22909.1,"rows":216,"revenue":22909.1,"units":4653,"tradingDays":27,"firstDay":"2026-01-01","lastDay":"2026-01-31","removedRows":0,"removedRevenue":0,"removedDays":[],"skipped":{},"revenueCol":"Revenue","items":{"Flat White":{"revenue":4180.0,"units":760},"Latte":{"revenue":5579.6,"units":962},"Long Black":{"revenue":1962.0,"units":436},"Iced Kopi":{"revenue":2971.6,"units":782},"Croissant":{"revenue":2066.4,"units":492},"Banana Bread":{"revenue":1603.2,"units":334},"Kaya Toast":{"revenue":2170.0,"units":620},"Chicken Sandwich":{"revenue":2376.3,"units":267}}},"February":{"file":"2026-02-sales.csv","fileRows":192,"fileTotal":18222.6,"rows":192,"revenue":18222.6,"units":3711,"tradingDays":24,"firstDay":"2026-02-01","lastDay":"2026-02-28","removedRows":0,"removedRevenue":0,"removedDays":[],"skipped":{},"revenueCol":"Revenue","items":{"Flat White":{"revenue":3234.0,"units":588},"Latte":{"revenue":4535.6,"units":782},"Long Black":{"revenue":1503.0,"units":334},"Iced Kopi":{"revenue":2473.8,"units":651},"Croissant":{"revenue":1709.4,"units":407},"Banana Bread":{"revenue":1348.8,"units":281},"Kaya Toast":{"revenue":1638.0,"units":468},"Chicken Sandwich":{"revenue":1780.0,"units":200}}},"March":{"file":"2026-03-sales.xlsx","fileRows":208,"fileTotal":23420.4,"rows":208,"revenue":23420.4,"units":4787,"tradingDays":26,"firstDay":"2026-03-01","lastDay":"2026-03-31","removedRows":0,"removedRevenue":0,"removedDays":[],"skipped":{},"revenueCol":"Revenue","items":{"Flat White":{"revenue":4345.0,"units":790},"Latte":{"revenue":5463.6,"units":942},"Long Black":{"revenue":1903.5,"units":423},"Iced Kopi":{"revenue":3366.8,"units":886},"Croissant":{"revenue":2167.2,"units":516},"Banana Bread":{"revenue":1598.4,"units":333},"Kaya Toast":{"revenue":2208.5,"units":631},"Chicken Sandwich":{"revenue":2367.4,"units":266}}},"April":{"file":"2026-04-sales.csv","fileRows":224,"fileTotal":26401.6,"rows":208,"revenue":24609.7,"units":4993,"tradingDays":26,"firstDay":"2026-04-01","lastDay":"2026-04-30","removedRows":16,"removedRevenue":1791.9,"removedDays":["2026-04-14","2026-04-15"],"skipped":{},"revenueCol":"Revenue","items":{"Flat White":{"revenue":4812.5,"units":875},"Latte":{"revenue":5794.2,"units":999},"Long Black":{"revenue":1953.0,"units":434},"Iced Kopi":{"revenue":3355.4,"units":883},"Croissant":{"revenue":2184.0,"units":520},"Banana Bread":{"revenue":1689.6,"units":352},"Kaya Toast":{"revenue":2240.0,"units":640},"Chicken Sandwich":{"revenue":2581.0,"units":290}}},"May":{"file":"2026-05-sales.csv","fileRows":216,"fileTotal":21837.7,"rows":216,"revenue":21837.7,"units":4449,"tradingDays":27,"firstDay":"2026-05-01","lastDay":"2026-05-31","removedRows":0,"removedRevenue":0,"removedDays":[],"skipped":{},"revenueCol":"Amount (SGD)","items":{"Flat White":{"revenue":4191.0,"units":762},"Latte":{"revenue":5075.0,"units":875},"Long Black":{"revenue":1719.0,"units":382},"Iced Kopi":{"revenue":3097.0,"units":815},"Croissant":{"revenue":1961.4,"units":467},"Banana Bread":{"revenue":1454.4,"units":303},"Kaya Toast":{"revenue":2061.5,"units":589},"Chicken Sandwich":{"revenue":2278.4,"units":256}}},"June":{"file":"2026-06-sales.csv","fileRows":200,"fileTotal":25193.0,"rows":200,"revenue":25193.0,"units":5123,"tradingDays":25,"firstDay":"2026-06-02","lastDay":"2026-06-30","removedRows":0,"removedRevenue":0,"removedDays":[],"skipped":{"blank lines":3,"TOTAL line":1},"revenueCol":"Revenue","items":{"Flat White":{"revenue":4867.5,"units":885},"Latte":{"revenue":6095.8,"units":1051},"Long Black":{"revenue":2047.5,"units":455},"Iced Kopi":{"revenue":3454.2,"units":909},"Croissant":{"revenue":2263.8,"units":539},"Banana Bread":{"revenue":1632.0,"units":340},"Kaya Toast":{"revenue":2313.5,"units":661},"Chicken Sandwich":{"revenue":2518.7,"units":283}}}}};
+
+const MONTHS = Object.keys(DATA.months);
+const ITEMS = DATA.items;
+const SHORT = m => m.slice(0, 3);
+const sgd = (n, dp = 2) => "S$" + n.toLocaleString("en-SG", { minimumFractionDigits: dp, maximumFractionDigits: dp });
+const num = n => n.toLocaleString("en-SG");
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const NS = "http://www.w3.org/2000/svg";
+
+function el(tag, attrs = {}, parent) {
+  const n = document.createElementNS(NS, tag);
+  for (const k in attrs) n.setAttribute(k, attrs[k]);
+  if (parent) parent.appendChild(n);
+  return n;
+}
+function roundTopRect(x, y, w, h, r) {
+  r = Math.min(r, h, w / 2);
+  return `M${x},${y + h}V${y + r}Q${x},${y} ${x + r},${y}H${x + w - r}Q${x + w},${y} ${x + w},${y + r}V${y + h}Z`;
+}
+function roundRightRect(x, y, w, h, r) {
+  r = Math.min(r, w, h / 2);
+  return `M${x},${y}H${x + w - r}Q${x + w},${y} ${x + w},${y + r}V${y + h - r}Q${x + w},${y + h} ${x + w - r},${y + h}H${x}Z`;
+}
+function niceMax(v) {
+  const step = Math.pow(10, Math.floor(Math.log10(v)));
+  for (const m of [1, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10]) if (m * step >= v) return m * step;
+}
+
+// Aggregate one month, or all months when key is "all".
+function summary(key) {
+  const ms = key === "all" ? MONTHS : [key];
+  const items = {};
+  ITEMS.forEach(i => items[i] = { revenue: 0, units: 0 });
+  let revenue = 0, units = 0, days = 0;
+  ms.forEach(m => {
+    const d = DATA.months[m];
+    revenue += d.revenue; units += d.units; days += d.tradingDays;
+    ITEMS.forEach(i => { items[i].revenue += d.items[i].revenue; items[i].units += d.items[i].units; });
+  });
+  const ranked = ITEMS.map(i => ({ name: i, revenue: Math.round(items[i].revenue * 100) / 100, units: items[i].units }))
+    .sort((a, b) => b.revenue - a.revenue);
+  return { revenue: Math.round(revenue * 100) / 100, units, days, ranked };
+}
+
+const tip = document.createElement("div");
+tip.className = "tip";
+tip.hidden = true;
+function showTip(container, x, y, html) {
+  if (tip.parentNode !== container) container.appendChild(tip);
+  tip.innerHTML = html;
+  tip.hidden = false;
+  const w = container.clientWidth, tw = tip.offsetWidth;
+  tip.style.left = Math.max(tw / 2, Math.min(w - tw / 2, x)) + "px";
+  tip.style.top = y + "px";
+}
+function hideTip() { tip.hidden = true; }
+
+// ---- picker ----
+const select = document.getElementById("month");
+select.innerHTML = `<option value="all">All months (Jan–Jun)</option>` +
+  MONTHS.map(m => `<option value="${m}">${m} 2026</option>`).join("");
+let current = "all";
+try { const saved = localStorage.getItem("hsc-month"); if (saved && (saved === "all" || MONTHS.includes(saved))) current = saved; } catch (e) {}
+select.value = current;
+select.addEventListener("change", () => setMonth(select.value));
+function setMonth(key) {
+  current = key;
+  select.value = key;
+  try { localStorage.setItem("hsc-month", key); } catch (e) {}
+  render();
+}
+
+// ---- KPIs ----
+function renderKpis(s) {
+  const idx = MONTHS.indexOf(current);
+  let revSub = current === "all" ? "Six months combined" : "";
+  let unitSub = "";
+  const daySub = "Closed Mondays";
+  if (idx > 0) {
+    const prev = DATA.months[MONTHS[idx - 1]];
+    const pct = (s.revenue / prev.revenue - 1) * 100;
+    revSub = `${pct >= 0 ? "▲" : "▼"} ${Math.abs(pct).toFixed(1)}% vs ${MONTHS[idx - 1]}`;
+    const upct = (s.units / prev.units - 1) * 100;
+    unitSub = `${upct >= 0 ? "▲" : "▼"} ${Math.abs(upct).toFixed(1)}% vs ${MONTHS[idx - 1]}`;
+  } else if (idx === 0) {
+    revSub = "First month in these files";
+  }
+  if (current === "all") unitSub = `${num(Math.round(s.units / 6))} a month on average`;
+  const perDay = s.revenue / s.days;
+  document.getElementById("kpis").innerHTML = [
+    ["Revenue", sgd(s.revenue), revSub],
+    ["Items sold", num(s.units), unitSub],
+    ["Trading days", num(s.days), daySub],
+    ["Average per trading day", sgd(perDay), `${num(Math.round(s.units / s.days))} items a day`],
+  ].map(([k, v, sub]) => `<div class="kpi"><dt>${k}</dt><dd>${v}</dd><div class="sub">${esc(sub)}</div></div>`).join("");
+}
+
+// ---- Monthly revenue columns ----
+function renderMonthly() {
+  const box = document.getElementById("monthly");
+  box.innerHTML = "";
+  const W = Math.max(280, box.clientWidth), H = 280, L = 44, R = 4, T = 22, B = 28;
+  const max = niceMax(Math.max(...MONTHS.map(m => DATA.months[m].revenue)));
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Column chart of revenue for each month, January to June 2026" }, box);
+  const y = v => T + (H - T - B) * (1 - v / max);
+  const ticks = 5;
+  for (let i = 0; i <= ticks; i++) {
+    const v = max * i / ticks, yy = y(v);
+    if (i > 0) el("line", { x1: L, x2: W - R, y1: yy, y2: yy, class: "gridline" }, svg);
+    const t = el("text", { x: L - 8, y: yy + 4, "text-anchor": "end" }, svg);
+    t.textContent = v === 0 ? "0" : (v / 1000) + "k";
+  }
+  el("line", { x1: L, x2: W - R, y1: y(0), y2: y(0), class: "baseline" }, svg);
+  const band = (W - L - R) / MONTHS.length, bw = band * 0.56;
+  MONTHS.forEach((m, i) => {
+    const d = DATA.months[m];
+    const on = current === "all" || current === m;
+    const g = el("g", { class: "col" + (on ? " on" : ""), tabindex: 0, role: "button", "aria-label": `${m}: ${sgd(d.revenue)}. Select ${m}` }, svg);
+    const x0 = L + band * i, x = x0 + (band - bw) / 2, top = y(d.revenue);
+    el("rect", { x: x0, y: T, width: band, height: H - T - B, class: "hit" }, g);
+    el("path", { d: roundTopRect(x, top, bw, y(0) - top, 4), class: "mark" }, g);
+    const lab = el("text", { x: x0 + band / 2, y: H - 8, "text-anchor": "middle" }, g);
+    lab.textContent = SHORT(m);
+    if (on && current !== "all") {
+      const v = el("text", { x: x0 + band / 2, y: top - 7, "text-anchor": "middle", class: "val" }, g);
+      v.textContent = sgd(d.revenue, 0);
+    }
+    const tipAt = () => {
+      const r = box.getBoundingClientRect(), sr = svg.getBoundingClientRect();
+      const k = sr.width / W;
+      const prev = i > 0 ? DATA.months[MONTHS[i - 1]].revenue : null;
+      const ch = prev ? ` · ${d.revenue >= prev ? "▲" : "▼"} ${Math.abs((d.revenue / prev - 1) * 100).toFixed(1)}%` : "";
+      showTip(box, (x0 + band / 2) * k + (sr.left - r.left), top * k + (sr.top - r.top),
+        `<b>${m}</b><br>${sgd(d.revenue)}${ch}<br>${d.tradingDays} trading days`);
+    };
+    g.addEventListener("mouseenter", tipAt);
+    g.addEventListener("focus", tipAt);
+    g.addEventListener("mouseleave", hideTip);
+    g.addEventListener("blur", hideTip);
+    g.addEventListener("click", () => setMonth(current === m ? "all" : m));
+    g.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setMonth(current === m ? "all" : m); } });
+  });
+  if (current === "all") {
+    const total = MONTHS.reduce((a, m) => a + DATA.months[m].revenue, 0);
+    const t = el("text", { x: W - R, y: 12, "text-anchor": "end", class: "val" }, svg);
+    t.textContent = "Total " + sgd(total, 2);
+  }
+}
+
+// ---- Top 5 horizontal bars ----
+function renderTop(s) {
+  const box = document.getElementById("top5");
+  box.innerHTML = "";
+  const top = s.ranked.slice(0, 5);
+  const W = Math.max(280, box.clientWidth), rowH = 46, T = 4, H = T + rowH * top.length, L = W < 400 ? 130 : 136, R = 76;
+  const max = top[0].revenue;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Bar chart of the five menu items with the most revenue" }, box);
+  const bh = 22;
+  top.forEach((it, i) => {
+    const g = el("g", { class: "hbar" }, svg);
+    const yy = T + rowH * i, cy = yy + rowH / 2;
+    el("rect", { x: 0, y: yy, width: W, height: rowH, class: "hit" }, g);
+    const name = el("text", { x: 0, y: cy + 4, class: "name" }, g);
+    name.textContent = it.name;
+    const w = Math.max(2, (W - L - R) * it.revenue / max);
+    el("path", { d: roundRightRect(L, cy - bh / 2, w, bh, 4), class: "mark" }, g);
+    const v = el("text", { x: L + w + 8, y: cy + 4, class: "val" }, g);
+    v.textContent = sgd(it.revenue, 0);
+    const share = it.revenue / s.revenue * 100;
+    g.addEventListener("mousemove", ev => {
+      const r = box.getBoundingClientRect();
+      showTip(box, ev.clientX - r.left, (cy - bh / 2) * (svg.getBoundingClientRect().width / W),
+        `<b>${esc(it.name)}</b><br>${sgd(it.revenue)} · ${share.toFixed(1)}% of revenue<br>${num(it.units)} sold`);
+    });
+    g.addEventListener("mouseleave", hideTip);
+  });
+  const top5Rev = top.reduce((a, b) => a + b.revenue, 0);
+  document.getElementById("top-hint").textContent =
+    `${current === "all" ? "January–June" : current} · these five made ${(top5Rev / s.revenue * 100).toFixed(0)}% of revenue`;
+}
+
+// ---- Item table ----
+function renderItems(s) {
+  document.getElementById("items-hint").textContent =
+    `${current === "all" ? "January–June 2026" : current + " 2026"}, ranked by revenue. The top 5 match the chart above.`;
+  const rows = s.ranked.map((it, i) => `<tr class="${i < 5 ? "top" : ""}">
+      <td><span class="rank">${i + 1}</span>${esc(it.name)}</td>
+      <td>${sgd(it.revenue)}</td><td>${(it.revenue / s.revenue * 100).toFixed(1)}%</td>
+      <td>${num(it.units)}</td></tr>`).join("");
+  document.getElementById("items").innerHTML =
+    `<thead><tr><th scope="col">Item</th><th scope="col">Revenue</th><th scope="col">Share</th><th scope="col">Sold</th></tr></thead>
+     <tbody>${rows}</tbody>
+     <tfoot><tr><td>All items</td><td>${sgd(s.revenue)}</td><td>100%</td><td>${num(s.units)}</td></tr></tfoot>`;
+}
+
+// ---- Reconciliation ----
+function renderCheck() {
+  let fileSum = 0, dashSum = 0, fileRows = 0, keptRows = 0;
+  const rows = MONTHS.map(m => {
+    const d = DATA.months[m];
+    fileSum += d.fileTotal; dashSum += d.revenue; fileRows += d.fileRows; keptRows += d.rows;
+    const notes = [];
+    if (d.removedRows) notes.push(`Removed ${d.removedRows} rows that repeat ${d.removedDays.map(x => +x.slice(8) ).join(" and ")} ${m} exactly (${sgd(d.removedRevenue)}).`);
+    if (d.skipped["blank lines"]) notes.push(`Skipped ${d.skipped["blank lines"]} blank lines.`);
+    if (d.skipped["TOTAL line"]) notes.push(`Skipped the file's own TOTAL line; it agrees with the rows.`);
+    if (d.revenueCol !== "Revenue") notes.push(`Revenue column is named “${esc(d.revenueCol)}”.`);
+    const same = Math.abs(d.fileTotal - d.revenue) < 0.005;
+    return `<tr class="${current === m ? "sel" : ""}"><td>${m}</td><td>${esc(d.file)}</td><td>${num(d.fileRows)}</td>
+      <td>${sgd(d.fileTotal)}</td><td class="match">${sgd(d.revenue)}${same ? "" : `<span class="pill">adjusted</span>`}</td>
+      <td class="note">${notes.join(" ") || "Matches."}</td></tr>`;
+  }).join("");
+  document.getElementById("check").innerHTML =
+    `<thead><tr><th scope="col">Month</th><th scope="col">File</th><th scope="col">Rows</th><th scope="col">File total</th><th scope="col">Dashboard</th><th scope="col" style="text-align:left">Notes</th></tr></thead>
+     <tbody>${rows}</tbody>
+     <tfoot><tr><td>Jan–Jun</td><td></td><td>${num(fileRows)}</td><td>${sgd(fileSum)}</td><td>${sgd(dashSum)}</td>
+     <td class="note">Difference ${sgd(fileSum - dashSum)} is the repeated April rows. ${num(keptRows)} rows used.</td></tr></tfoot>`;
+}
+
+function renderSource() {
+  const gen = new Date(DATA.generated + "T00:00:00").toLocaleDateString("en-SG", { day: "numeric", month: "long", year: "numeric" });
+  document.getElementById("source").innerHTML = `
+    <p><strong>Source:</strong> snapshot of six monthly sales exports (${MONTHS.map(m => esc(DATA.months[m].file)).join(", ")}), combined into harbour-street-cafe-sales-2026-H1.csv on ${gen}. This is not a live connection; new sales will not appear until the page is rebuilt.</p>
+    <p>The exports record daily quantity sold per item, not individual orders, so the dashboard shows items sold rather than order counts. All amounts are in Singapore dollars.</p>`;
+}
+
+function render() {
+  const s = summary(current);
+  hideTip();
+  renderKpis(s);
+  renderMonthly();
+  renderTop(s);
+  renderItems(s);
+  renderCheck();
+}
+renderSource();
+render();
+let lastW = window.innerWidth;
+window.addEventListener("resize", () => { if (window.innerWidth !== lastW) { lastW = window.innerWidth; render(); } });
+</script>
+</body>
+</html>

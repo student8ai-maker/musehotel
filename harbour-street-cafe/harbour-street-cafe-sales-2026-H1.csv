@@ -1,0 +1,1241 @@
+Date,Item,Qty,Unit Price,Revenue,Month
+2026-01-01,Flat White,25,5.5,137.50,January
+2026-01-01,Latte,35,5.8,203.00,January
+2026-01-01,Long Black,13,4.5,58.50,January
+2026-01-01,Iced Kopi,26,3.8,98.80,January
+2026-01-01,Croissant,13,4.2,54.60,January
+2026-01-01,Banana Bread,10,4.8,48.00,January
+2026-01-01,Kaya Toast,25,3.5,87.50,January
+2026-01-01,Chicken Sandwich,10,8.9,89.00,January
+2026-01-02,Flat White,32,5.5,176.00,January
+2026-01-02,Latte,33,5.8,191.40,January
+2026-01-02,Long Black,15,4.5,67.50,January
+2026-01-02,Iced Kopi,29,3.8,110.20,January
+2026-01-02,Croissant,11,4.2,46.20,January
+2026-01-02,Banana Bread,13,4.8,62.40,January
+2026-01-02,Kaya Toast,23,3.5,80.50,January
+2026-01-02,Chicken Sandwich,10,8.9,89.00,January
+2026-01-03,Flat White,25,5.5,137.50,January
+2026-01-03,Latte,30,5.8,174.00,January
+2026-01-03,Long Black,15,4.5,67.50,January
+2026-01-03,Iced Kopi,34,3.8,129.20,January
+2026-01-03,Croissant,23,4.2,96.60,January
+2026-01-03,Banana Bread,14,4.8,67.20,January
+2026-01-03,Kaya Toast,29,3.5,101.50,January
+2026-01-03,Chicken Sandwich,11,8.9,97.90,January
+2026-01-04,Flat White,36,5.5,198.00,January
+2026-01-04,Latte,44,5.8,255.20,January
+2026-01-04,Long Black,16,4.5,72.00,January
+2026-01-04,Iced Kopi,47,3.8,178.60,January
+2026-01-04,Croissant,24,4.2,100.80,January
+2026-01-04,Banana Bread,17,4.8,81.60,January
+2026-01-04,Kaya Toast,24,3.5,84.00,January
+2026-01-04,Chicken Sandwich,10,8.9,89.00,January
+2026-01-06,Flat White,24,5.5,132.00,January
+2026-01-06,Latte,31,5.8,179.80,January
+2026-01-06,Long Black,16,4.5,72.00,January
+2026-01-06,Iced Kopi,29,3.8,110.20,January
+2026-01-06,Croissant,15,4.2,63.00,January
+2026-01-06,Banana Bread,9,4.8,43.20,January
+2026-01-06,Kaya Toast,18,3.5,63.00,January
+2026-01-06,Chicken Sandwich,11,8.9,97.90,January
+2026-01-07,Flat White,22,5.5,121.00,January
+2026-01-07,Latte,33,5.8,191.40,January
+2026-01-07,Long Black,15,4.5,67.50,January
+2026-01-07,Iced Kopi,19,3.8,72.20,January
+2026-01-07,Croissant,17,4.2,71.40,January
+2026-01-07,Banana Bread,14,4.8,67.20,January
+2026-01-07,Kaya Toast,12,3.5,42.00,January
+2026-01-07,Chicken Sandwich,8,8.9,71.20,January
+2026-01-08,Flat White,26,5.5,143.00,January
+2026-01-08,Latte,26,5.8,150.80,January
+2026-01-08,Long Black,15,4.5,67.50,January
+2026-01-08,Iced Kopi,28,3.8,106.40,January
+2026-01-08,Croissant,11,4.2,46.20,January
+2026-01-08,Banana Bread,13,4.8,62.40,January
+2026-01-08,Kaya Toast,23,3.5,80.50,January
+2026-01-08,Chicken Sandwich,11,8.9,97.90,January
+2026-01-09,Flat White,34,5.5,187.00,January
+2026-01-09,Latte,34,5.8,197.20,January
+2026-01-09,Long Black,14,4.5,63.00,January
+2026-01-09,Iced Kopi,20,3.8,76.00,January
+2026-01-09,Croissant,19,4.2,79.80,January
+2026-01-09,Banana Bread,9,4.8,43.20,January
+2026-01-09,Kaya Toast,18,3.5,63.00,January
+2026-01-09,Chicken Sandwich,6,8.9,53.40,January
+2026-01-10,Flat White,29,5.5,159.50,January
+2026-01-10,Latte,38,5.8,220.40,January
+2026-01-10,Long Black,22,4.5,99.00,January
+2026-01-10,Iced Kopi,24,3.8,91.20,January
+2026-01-10,Croissant,16,4.2,67.20,January
+2026-01-10,Banana Bread,15,4.8,72.00,January
+2026-01-10,Kaya Toast,33,3.5,115.50,January
+2026-01-10,Chicken Sandwich,13,8.9,115.70,January
+2026-01-11,Flat White,23,5.5,126.50,January
+2026-01-11,Latte,24,5.8,139.20,January
+2026-01-11,Long Black,19,4.5,85.50,January
+2026-01-11,Iced Kopi,32,3.8,121.60,January
+2026-01-11,Croissant,18,4.2,75.60,January
+2026-01-11,Banana Bread,17,4.8,81.60,January
+2026-01-11,Kaya Toast,32,3.5,112.00,January
+2026-01-11,Chicken Sandwich,12,8.9,106.80,January
+2026-01-13,Flat White,27,5.5,148.50,January
+2026-01-13,Latte,35,5.8,203.00,January
+2026-01-13,Long Black,19,4.5,85.50,January
+2026-01-13,Iced Kopi,32,3.8,121.60,January
+2026-01-13,Croissant,18,4.2,75.60,January
+2026-01-13,Banana Bread,12,4.8,57.60,January
+2026-01-13,Kaya Toast,13,3.5,45.50,January
+2026-01-13,Chicken Sandwich,12,8.9,106.80,January
+2026-01-14,Flat White,31,5.5,170.50,January
+2026-01-14,Latte,35,5.8,203.00,January
+2026-01-14,Long Black,8,4.5,36.00,January
+2026-01-14,Iced Kopi,24,3.8,91.20,January
+2026-01-14,Croissant,20,4.2,84.00,January
+2026-01-14,Banana Bread,7,4.8,33.60,January
+2026-01-14,Kaya Toast,20,3.5,70.00,January
+2026-01-14,Chicken Sandwich,11,8.9,97.90,January
+2026-01-15,Flat White,19,5.5,104.50,January
+2026-01-15,Latte,43,5.8,249.40,January
+2026-01-15,Long Black,15,4.5,67.50,January
+2026-01-15,Iced Kopi,27,3.8,102.60,January
+2026-01-15,Croissant,18,4.2,75.60,January
+2026-01-15,Banana Bread,12,4.8,57.60,January
+2026-01-15,Kaya Toast,21,3.5,73.50,January
+2026-01-15,Chicken Sandwich,11,8.9,97.90,January
+2026-01-16,Flat White,22,5.5,121.00,January
+2026-01-16,Latte,29,5.8,168.20,January
+2026-01-16,Long Black,17,4.5,76.50,January
+2026-01-16,Iced Kopi,28,3.8,106.40,January
+2026-01-16,Croissant,13,4.2,54.60,January
+2026-01-16,Banana Bread,13,4.8,62.40,January
+2026-01-16,Kaya Toast,27,3.5,94.50,January
+2026-01-16,Chicken Sandwich,8,8.9,71.20,January
+2026-01-17,Flat White,26,5.5,143.00,January
+2026-01-17,Latte,41,5.8,237.80,January
+2026-01-17,Long Black,18,4.5,81.00,January
+2026-01-17,Iced Kopi,35,3.8,133.00,January
+2026-01-17,Croissant,27,4.2,113.40,January
+2026-01-17,Banana Bread,12,4.8,57.60,January
+2026-01-17,Kaya Toast,32,3.5,112.00,January
+2026-01-17,Chicken Sandwich,9,8.9,80.10,January
+2026-01-18,Flat White,30,5.5,165.00,January
+2026-01-18,Latte,46,5.8,266.80,January
+2026-01-18,Long Black,21,4.5,94.50,January
+2026-01-18,Iced Kopi,42,3.8,159.60,January
+2026-01-18,Croissant,23,4.2,96.60,January
+2026-01-18,Banana Bread,15,4.8,72.00,January
+2026-01-18,Kaya Toast,27,3.5,94.50,January
+2026-01-18,Chicken Sandwich,13,8.9,115.70,January
+2026-01-20,Flat White,25,5.5,137.50,January
+2026-01-20,Latte,34,5.8,197.20,January
+2026-01-20,Long Black,15,4.5,67.50,January
+2026-01-20,Iced Kopi,28,3.8,106.40,January
+2026-01-20,Croissant,19,4.2,79.80,January
+2026-01-20,Banana Bread,12,4.8,57.60,January
+2026-01-20,Kaya Toast,29,3.5,101.50,January
+2026-01-20,Chicken Sandwich,10,8.9,89.00,January
+2026-01-21,Flat White,24,5.5,132.00,January
+2026-01-21,Latte,29,5.8,168.20,January
+2026-01-21,Long Black,14,4.5,63.00,January
+2026-01-21,Iced Kopi,34,3.8,129.20,January
+2026-01-21,Croissant,15,4.2,63.00,January
+2026-01-21,Banana Bread,12,4.8,57.60,January
+2026-01-21,Kaya Toast,28,3.5,98.00,January
+2026-01-21,Chicken Sandwich,4,8.9,35.60,January
+2026-01-22,Flat White,20,5.5,110.00,January
+2026-01-22,Latte,33,5.8,191.40,January
+2026-01-22,Long Black,15,4.5,67.50,January
+2026-01-22,Iced Kopi,29,3.8,110.20,January
+2026-01-22,Croissant,15,4.2,63.00,January
+2026-01-22,Banana Bread,12,4.8,57.60,January
+2026-01-22,Kaya Toast,22,3.5,77.00,January
+2026-01-22,Chicken Sandwich,8,8.9,71.20,January
+2026-01-23,Flat White,40,5.5,220.00,January
+2026-01-23,Latte,34,5.8,197.20,January
+2026-01-23,Long Black,12,4.5,54.00,January
+2026-01-23,Iced Kopi,27,3.8,102.60,January
+2026-01-23,Croissant,16,4.2,67.20,January
+2026-01-23,Banana Bread,11,4.8,52.80,January
+2026-01-23,Kaya Toast,8,3.5,28.00,January
+2026-01-23,Chicken Sandwich,8,8.9,71.20,January
+2026-01-24,Flat White,40,5.5,220.00,January
+2026-01-24,Latte,34,5.8,197.20,January
+2026-01-24,Long Black,18,4.5,81.00,January
+2026-01-24,Iced Kopi,42,3.8,159.60,January
+2026-01-24,Croissant,25,4.2,105.00,January
+2026-01-24,Banana Bread,18,4.8,86.40,January
+2026-01-24,Kaya Toast,19,3.5,66.50,January
+2026-01-24,Chicken Sandwich,11,8.9,97.90,January
+2026-01-25,Flat White,32,5.5,176.00,January
+2026-01-25,Latte,46,5.8,266.80,January
+2026-01-25,Long Black,21,4.5,94.50,January
+2026-01-25,Iced Kopi,20,3.8,76.00,January
+2026-01-25,Croissant,26,4.2,109.20,January
+2026-01-25,Banana Bread,11,4.8,52.80,January
+2026-01-25,Kaya Toast,30,3.5,105.00,January
+2026-01-25,Chicken Sandwich,9,8.9,80.10,January
+2026-01-27,Flat White,27,5.5,148.50,January
+2026-01-27,Latte,40,5.8,232.00,January
+2026-01-27,Long Black,13,4.5,58.50,January
+2026-01-27,Iced Kopi,29,3.8,110.20,January
+2026-01-27,Croissant,19,4.2,79.80,January
+2026-01-27,Banana Bread,11,4.8,52.80,January
+2026-01-27,Kaya Toast,20,3.5,70.00,January
+2026-01-27,Chicken Sandwich,12,8.9,106.80,January
+2026-01-28,Flat White,32,5.5,176.00,January
+2026-01-28,Latte,30,5.8,174.00,January
+2026-01-28,Long Black,22,4.5,99.00,January
+2026-01-28,Iced Kopi,21,3.8,79.80,January
+2026-01-28,Croissant,20,4.2,84.00,January
+2026-01-28,Banana Bread,10,4.8,48.00,January
+2026-01-28,Kaya Toast,21,3.5,73.50,January
+2026-01-28,Chicken Sandwich,10,8.9,89.00,January
+2026-01-29,Flat White,27,5.5,148.50,January
+2026-01-29,Latte,36,5.8,208.80,January
+2026-01-29,Long Black,9,4.5,40.50,January
+2026-01-29,Iced Kopi,19,3.8,72.20,January
+2026-01-29,Croissant,19,4.2,79.80,January
+2026-01-29,Banana Bread,9,4.8,43.20,January
+2026-01-29,Kaya Toast,16,3.5,56.00,January
+2026-01-29,Chicken Sandwich,6,8.9,53.40,January
+2026-01-30,Flat White,33,5.5,181.50,January
+2026-01-30,Latte,37,5.8,214.60,January
+2026-01-30,Long Black,18,4.5,81.00,January
+2026-01-30,Iced Kopi,22,3.8,83.60,January
+2026-01-30,Croissant,17,4.2,71.40,January
+2026-01-30,Banana Bread,8,4.8,38.40,January
+2026-01-30,Kaya Toast,24,3.5,84.00,January
+2026-01-30,Chicken Sandwich,12,8.9,106.80,January
+2026-01-31,Flat White,29,5.5,159.50,January
+2026-01-31,Latte,52,5.8,301.60,January
+2026-01-31,Long Black,21,4.5,94.50,January
+2026-01-31,Iced Kopi,35,3.8,133.00,January
+2026-01-31,Croissant,15,4.2,63.00,January
+2026-01-31,Banana Bread,18,4.8,86.40,January
+2026-01-31,Kaya Toast,26,3.5,91.00,January
+2026-01-31,Chicken Sandwich,11,8.9,97.90,January
+2026-02-01,Flat White,33,5.5,181.50,February
+2026-02-01,Latte,40,5.8,232.00,February
+2026-02-01,Long Black,21,4.5,94.50,February
+2026-02-01,Iced Kopi,27,3.8,102.60,February
+2026-02-01,Croissant,23,4.2,96.60,February
+2026-02-01,Banana Bread,16,4.8,76.80,February
+2026-02-01,Kaya Toast,30,3.5,105.00,February
+2026-02-01,Chicken Sandwich,10,8.9,89.00,February
+2026-02-03,Flat White,19,5.5,104.50,February
+2026-02-03,Latte,35,5.8,203.00,February
+2026-02-03,Long Black,13,4.5,58.50,February
+2026-02-03,Iced Kopi,26,3.8,98.80,February
+2026-02-03,Croissant,20,4.2,84.00,February
+2026-02-03,Banana Bread,9,4.8,43.20,February
+2026-02-03,Kaya Toast,8,3.5,28.00,February
+2026-02-03,Chicken Sandwich,7,8.9,62.30,February
+2026-02-04,Flat White,13,5.5,71.50,February
+2026-02-04,Latte,34,5.8,197.20,February
+2026-02-04,Long Black,13,4.5,58.50,February
+2026-02-04,Iced Kopi,21,3.8,79.80,February
+2026-02-04,Croissant,15,4.2,63.00,February
+2026-02-04,Banana Bread,12,4.8,57.60,February
+2026-02-04,Kaya Toast,19,3.5,66.50,February
+2026-02-04,Chicken Sandwich,11,8.9,97.90,February
+2026-02-05,Flat White,23,5.5,126.50,February
+2026-02-05,Latte,35,5.8,203.00,February
+2026-02-05,Long Black,17,4.5,76.50,February
+2026-02-05,Iced Kopi,35,3.8,133.00,February
+2026-02-05,Croissant,12,4.2,50.40,February
+2026-02-05,Banana Bread,12,4.8,57.60,February
+2026-02-05,Kaya Toast,10,3.5,35.00,February
+2026-02-05,Chicken Sandwich,6,8.9,53.40,February
+2026-02-06,Flat White,12,5.5,66.00,February
+2026-02-06,Latte,36,5.8,208.80,February
+2026-02-06,Long Black,9,4.5,40.50,February
+2026-02-06,Iced Kopi,25,3.8,95.00,February
+2026-02-06,Croissant,14,4.2,58.80,February
+2026-02-06,Banana Bread,10,4.8,48.00,February
+2026-02-06,Kaya Toast,16,3.5,56.00,February
+2026-02-06,Chicken Sandwich,8,8.9,71.20,February
+2026-02-07,Flat White,40,5.5,220.00,February
+2026-02-07,Latte,37,5.8,214.60,February
+2026-02-07,Long Black,18,4.5,81.00,February
+2026-02-07,Iced Kopi,39,3.8,148.20,February
+2026-02-07,Croissant,19,4.2,79.80,February
+2026-02-07,Banana Bread,10,4.8,48.00,February
+2026-02-07,Kaya Toast,21,3.5,73.50,February
+2026-02-07,Chicken Sandwich,13,8.9,115.70,February
+2026-02-08,Flat White,21,5.5,115.50,February
+2026-02-08,Latte,33,5.8,191.40,February
+2026-02-08,Long Black,19,4.5,85.50,February
+2026-02-08,Iced Kopi,37,3.8,140.60,February
+2026-02-08,Croissant,19,4.2,79.80,February
+2026-02-08,Banana Bread,15,4.8,72.00,February
+2026-02-08,Kaya Toast,25,3.5,87.50,February
+2026-02-08,Chicken Sandwich,8,8.9,71.20,February
+2026-02-10,Flat White,15,5.5,82.50,February
+2026-02-10,Latte,24,5.8,139.20,February
+2026-02-10,Long Black,15,4.5,67.50,February
+2026-02-10,Iced Kopi,22,3.8,83.60,February
+2026-02-10,Croissant,12,4.2,50.40,February
+2026-02-10,Banana Bread,8,4.8,38.40,February
+2026-02-10,Kaya Toast,11,3.5,38.50,February
+2026-02-10,Chicken Sandwich,8,8.9,71.20,February
+2026-02-11,Flat White,17,5.5,93.50,February
+2026-02-11,Latte,31,5.8,179.80,February
+2026-02-11,Long Black,5,4.5,22.50,February
+2026-02-11,Iced Kopi,27,3.8,102.60,February
+2026-02-11,Croissant,12,4.2,50.40,February
+2026-02-11,Banana Bread,5,4.8,24.00,February
+2026-02-11,Kaya Toast,21,3.5,73.50,February
+2026-02-11,Chicken Sandwich,7,8.9,62.30,February
+2026-02-12,Flat White,11,5.5,60.50,February
+2026-02-12,Latte,22,5.8,127.60,February
+2026-02-12,Long Black,13,4.5,58.50,February
+2026-02-12,Iced Kopi,22,3.8,83.60,February
+2026-02-12,Croissant,18,4.2,75.60,February
+2026-02-12,Banana Bread,11,4.8,52.80,February
+2026-02-12,Kaya Toast,21,3.5,73.50,February
+2026-02-12,Chicken Sandwich,9,8.9,80.10,February
+2026-02-13,Flat White,31,5.5,170.50,February
+2026-02-13,Latte,33,5.8,191.40,February
+2026-02-13,Long Black,14,4.5,63.00,February
+2026-02-13,Iced Kopi,12,3.8,45.60,February
+2026-02-13,Croissant,18,4.2,75.60,February
+2026-02-13,Banana Bread,13,4.8,62.40,February
+2026-02-13,Kaya Toast,17,3.5,59.50,February
+2026-02-13,Chicken Sandwich,7,8.9,62.30,February
+2026-02-14,Flat White,41,5.5,225.50,February
+2026-02-14,Latte,25,5.8,145.00,February
+2026-02-14,Long Black,17,4.5,76.50,February
+2026-02-14,Iced Kopi,47,3.8,178.60,February
+2026-02-14,Croissant,16,4.2,67.20,February
+2026-02-14,Banana Bread,14,4.8,67.20,February
+2026-02-14,Kaya Toast,32,3.5,112.00,February
+2026-02-14,Chicken Sandwich,10,8.9,89.00,February
+2026-02-15,Flat White,34,5.5,187.00,February
+2026-02-15,Latte,43,5.8,249.40,February
+2026-02-15,Long Black,13,4.5,58.50,February
+2026-02-15,Iced Kopi,32,3.8,121.60,February
+2026-02-15,Croissant,20,4.2,84.00,February
+2026-02-15,Banana Bread,15,4.8,72.00,February
+2026-02-15,Kaya Toast,24,3.5,84.00,February
+2026-02-15,Chicken Sandwich,10,8.9,89.00,February
+2026-02-17,Flat White,18,5.5,99.00,February
+2026-02-17,Latte,26,5.8,150.80,February
+2026-02-17,Long Black,15,4.5,67.50,February
+2026-02-17,Iced Kopi,26,3.8,98.80,February
+2026-02-17,Croissant,12,4.2,50.40,February
+2026-02-17,Banana Bread,8,4.8,38.40,February
+2026-02-17,Kaya Toast,30,3.5,105.00,February
+2026-02-17,Chicken Sandwich,10,8.9,89.00,February
+2026-02-18,Flat White,27,5.5,148.50,February
+2026-02-18,Latte,11,5.8,63.80,February
+2026-02-18,Long Black,14,4.5,63.00,February
+2026-02-18,Iced Kopi,28,3.8,106.40,February
+2026-02-18,Croissant,21,4.2,88.20,February
+2026-02-18,Banana Bread,11,4.8,52.80,February
+2026-02-18,Kaya Toast,18,3.5,63.00,February
+2026-02-18,Chicken Sandwich,9,8.9,80.10,February
+2026-02-19,Flat White,12,5.5,66.00,February
+2026-02-19,Latte,35,5.8,203.00,February
+2026-02-19,Long Black,13,4.5,58.50,February
+2026-02-19,Iced Kopi,21,3.8,79.80,February
+2026-02-19,Croissant,20,4.2,84.00,February
+2026-02-19,Banana Bread,14,4.8,67.20,February
+2026-02-19,Kaya Toast,12,3.5,42.00,February
+2026-02-19,Chicken Sandwich,7,8.9,62.30,February
+2026-02-20,Flat White,25,5.5,137.50,February
+2026-02-20,Latte,30,5.8,174.00,February
+2026-02-20,Long Black,11,4.5,49.50,February
+2026-02-20,Iced Kopi,19,3.8,72.20,February
+2026-02-20,Croissant,22,4.2,92.40,February
+2026-02-20,Banana Bread,12,4.8,57.60,February
+2026-02-20,Kaya Toast,13,3.5,45.50,February
+2026-02-20,Chicken Sandwich,5,8.9,44.50,February
+2026-02-21,Flat White,40,5.5,220.00,February
+2026-02-21,Latte,44,5.8,255.20,February
+2026-02-21,Long Black,22,4.5,99.00,February
+2026-02-21,Iced Kopi,38,3.8,144.40,February
+2026-02-21,Croissant,16,4.2,67.20,February
+2026-02-21,Banana Bread,13,4.8,62.40,February
+2026-02-21,Kaya Toast,14,3.5,49.00,February
+2026-02-21,Chicken Sandwich,9,8.9,80.10,February
+2026-02-22,Flat White,30,5.5,165.00,February
+2026-02-22,Latte,41,5.8,237.80,February
+2026-02-22,Long Black,14,4.5,63.00,February
+2026-02-22,Iced Kopi,32,3.8,121.60,February
+2026-02-22,Croissant,21,4.2,88.20,February
+2026-02-22,Banana Bread,14,4.8,67.20,February
+2026-02-22,Kaya Toast,27,3.5,94.50,February
+2026-02-22,Chicken Sandwich,11,8.9,97.90,February
+2026-02-24,Flat White,21,5.5,115.50,February
+2026-02-24,Latte,34,5.8,197.20,February
+2026-02-24,Long Black,12,4.5,54.00,February
+2026-02-24,Iced Kopi,20,3.8,76.00,February
+2026-02-24,Croissant,13,4.2,54.60,February
+2026-02-24,Banana Bread,10,4.8,48.00,February
+2026-02-24,Kaya Toast,18,3.5,63.00,February
+2026-02-24,Chicken Sandwich,8,8.9,71.20,February
+2026-02-25,Flat White,23,5.5,126.50,February
+2026-02-25,Latte,30,5.8,174.00,February
+2026-02-25,Long Black,12,4.5,54.00,February
+2026-02-25,Iced Kopi,17,3.8,64.60,February
+2026-02-25,Croissant,16,4.2,67.20,February
+2026-02-25,Banana Bread,12,4.8,57.60,February
+2026-02-25,Kaya Toast,20,3.5,70.00,February
+2026-02-25,Chicken Sandwich,8,8.9,71.20,February
+2026-02-26,Flat White,26,5.5,143.00,February
+2026-02-26,Latte,22,5.8,127.60,February
+2026-02-26,Long Black,7,4.5,31.50,February
+2026-02-26,Iced Kopi,25,3.8,95.00,February
+2026-02-26,Croissant,11,4.2,46.20,February
+2026-02-26,Banana Bread,11,4.8,52.80,February
+2026-02-26,Kaya Toast,13,3.5,45.50,February
+2026-02-26,Chicken Sandwich,3,8.9,26.70,February
+2026-02-27,Flat White,17,5.5,93.50,February
+2026-02-27,Latte,39,5.8,226.20,February
+2026-02-27,Long Black,11,4.5,49.50,February
+2026-02-27,Iced Kopi,17,3.8,64.60,February
+2026-02-27,Croissant,12,4.2,50.40,February
+2026-02-27,Banana Bread,11,4.8,52.80,February
+2026-02-27,Kaya Toast,20,3.5,70.00,February
+2026-02-27,Chicken Sandwich,8,8.9,71.20,February
+2026-02-28,Flat White,39,5.5,214.50,February
+2026-02-28,Latte,42,5.8,243.60,February
+2026-02-28,Long Black,16,4.5,72.00,February
+2026-02-28,Iced Kopi,36,3.8,136.80,February
+2026-02-28,Croissant,25,4.2,105.00,February
+2026-02-28,Banana Bread,15,4.8,72.00,February
+2026-02-28,Kaya Toast,28,3.5,98.00,February
+2026-02-28,Chicken Sandwich,8,8.9,71.20,February
+2026-03-01,Flat White,35,5.5,192.50,March
+2026-03-01,Latte,49,5.8,284.20,March
+2026-03-01,Long Black,18,4.5,81.00,March
+2026-03-01,Iced Kopi,45,3.8,171.00,March
+2026-03-01,Croissant,25,4.2,105.00,March
+2026-03-01,Banana Bread,17,4.8,81.60,March
+2026-03-01,Kaya Toast,27,3.5,94.50,March
+2026-03-01,Chicken Sandwich,18,8.9,160.20,March
+2026-03-03,Flat White,34,5.5,187.00,March
+2026-03-03,Latte,32,5.8,185.60,March
+2026-03-03,Long Black,15,4.5,67.50,March
+2026-03-03,Iced Kopi,45,3.8,171.00,March
+2026-03-03,Croissant,16,4.2,67.20,March
+2026-03-03,Banana Bread,14,4.8,67.20,March
+2026-03-03,Kaya Toast,26,3.5,91.00,March
+2026-03-03,Chicken Sandwich,10,8.9,89.00,March
+2026-03-04,Flat White,21,5.5,115.50,March
+2026-03-04,Latte,35,5.8,203.00,March
+2026-03-04,Long Black,16,4.5,72.00,March
+2026-03-04,Iced Kopi,36,3.8,136.80,March
+2026-03-04,Croissant,20,4.2,84.00,March
+2026-03-04,Banana Bread,12,4.8,57.60,March
+2026-03-04,Kaya Toast,25,3.5,87.50,March
+2026-03-04,Chicken Sandwich,11,8.9,97.90,March
+2026-03-05,Flat White,29,5.5,159.50,March
+2026-03-05,Latte,34,5.8,197.20,March
+2026-03-05,Long Black,14,4.5,63.00,March
+2026-03-05,Iced Kopi,34,3.8,129.20,March
+2026-03-05,Croissant,14,4.2,58.80,March
+2026-03-05,Banana Bread,10,4.8,48.00,March
+2026-03-05,Kaya Toast,22,3.5,77.00,March
+2026-03-05,Chicken Sandwich,7,8.9,62.30,March
+2026-03-06,Flat White,25,5.5,137.50,March
+2026-03-06,Latte,20,5.8,116.00,March
+2026-03-06,Long Black,12,4.5,54.00,March
+2026-03-06,Iced Kopi,33,3.8,125.40,March
+2026-03-06,Croissant,20,4.2,84.00,March
+2026-03-06,Banana Bread,11,4.8,52.80,March
+2026-03-06,Kaya Toast,20,3.5,70.00,March
+2026-03-06,Chicken Sandwich,7,8.9,62.30,March
+2026-03-07,Flat White,46,5.5,253.00,March
+2026-03-07,Latte,47,5.8,272.60,March
+2026-03-07,Long Black,22,4.5,99.00,March
+2026-03-07,Iced Kopi,33,3.8,125.40,March
+2026-03-07,Croissant,22,4.2,92.40,March
+2026-03-07,Banana Bread,11,4.8,52.80,March
+2026-03-07,Kaya Toast,32,3.5,112.00,March
+2026-03-07,Chicken Sandwich,14,8.9,124.60,March
+2026-03-08,Flat White,25,5.5,137.50,March
+2026-03-08,Latte,43,5.8,249.40,March
+2026-03-08,Long Black,21,4.5,94.50,March
+2026-03-08,Iced Kopi,28,3.8,106.40,March
+2026-03-08,Croissant,16,4.2,67.20,March
+2026-03-08,Banana Bread,13,4.8,62.40,March
+2026-03-08,Kaya Toast,25,3.5,87.50,March
+2026-03-08,Chicken Sandwich,10,8.9,89.00,March
+2026-03-10,Flat White,28,5.5,154.00,March
+2026-03-10,Latte,35,5.8,203.00,March
+2026-03-10,Long Black,16,4.5,72.00,March
+2026-03-10,Iced Kopi,34,3.8,129.20,March
+2026-03-10,Croissant,23,4.2,96.60,March
+2026-03-10,Banana Bread,14,4.8,67.20,March
+2026-03-10,Kaya Toast,16,3.5,56.00,March
+2026-03-10,Chicken Sandwich,8,8.9,71.20,March
+2026-03-11,Flat White,22,5.5,121.00,March
+2026-03-11,Latte,26,5.8,150.80,March
+2026-03-11,Long Black,14,4.5,63.00,March
+2026-03-11,Iced Kopi,30,3.8,114.00,March
+2026-03-11,Croissant,19,4.2,79.80,March
+2026-03-11,Banana Bread,8,4.8,38.40,March
+2026-03-11,Kaya Toast,16,3.5,56.00,March
+2026-03-11,Chicken Sandwich,9,8.9,80.10,March
+2026-03-12,Flat White,26,5.5,143.00,March
+2026-03-12,Latte,31,5.8,179.80,March
+2026-03-12,Long Black,14,4.5,63.00,March
+2026-03-12,Iced Kopi,25,3.8,95.00,March
+2026-03-12,Croissant,20,4.2,84.00,March
+2026-03-12,Banana Bread,12,4.8,57.60,March
+2026-03-12,Kaya Toast,21,3.5,73.50,March
+2026-03-12,Chicken Sandwich,8,8.9,71.20,March
+2026-03-13,Flat White,27,5.5,148.50,March
+2026-03-13,Latte,15,5.8,87.00,March
+2026-03-13,Long Black,12,4.5,54.00,March
+2026-03-13,Iced Kopi,30,3.8,114.00,March
+2026-03-13,Croissant,12,4.2,50.40,March
+2026-03-13,Banana Bread,12,4.8,57.60,March
+2026-03-13,Kaya Toast,22,3.5,77.00,March
+2026-03-13,Chicken Sandwich,7,8.9,62.30,March
+2026-03-14,Flat White,34,5.5,187.00,March
+2026-03-14,Latte,42,5.8,243.60,March
+2026-03-14,Long Black,20,4.5,90.00,March
+2026-03-14,Iced Kopi,42,3.8,159.60,March
+2026-03-14,Croissant,23,4.2,96.60,March
+2026-03-14,Banana Bread,13,4.8,62.40,March
+2026-03-14,Kaya Toast,27,3.5,94.50,March
+2026-03-14,Chicken Sandwich,12,8.9,106.80,March
+2026-03-15,Flat White,40,5.5,220.00,March
+2026-03-15,Latte,46,5.8,266.80,March
+2026-03-15,Long Black,17,4.5,76.50,March
+2026-03-15,Iced Kopi,30,3.8,114.00,March
+2026-03-15,Croissant,22,4.2,92.40,March
+2026-03-15,Banana Bread,13,4.8,62.40,March
+2026-03-15,Kaya Toast,23,3.5,80.50,March
+2026-03-15,Chicken Sandwich,12,8.9,106.80,March
+2026-03-17,Flat White,25,5.5,137.50,March
+2026-03-17,Latte,34,5.8,197.20,March
+2026-03-17,Long Black,16,4.5,72.00,March
+2026-03-17,Iced Kopi,27,3.8,102.60,March
+2026-03-17,Croissant,26,4.2,109.20,March
+2026-03-17,Banana Bread,11,4.8,52.80,March
+2026-03-17,Kaya Toast,26,3.5,91.00,March
+2026-03-17,Chicken Sandwich,10,8.9,89.00,March
+2026-03-18,Flat White,34,5.5,187.00,March
+2026-03-18,Latte,17,5.8,98.60,March
+2026-03-18,Long Black,12,4.5,54.00,March
+2026-03-18,Iced Kopi,31,3.8,117.80,March
+2026-03-18,Croissant,20,4.2,84.00,March
+2026-03-18,Banana Bread,17,4.8,81.60,March
+2026-03-18,Kaya Toast,23,3.5,80.50,March
+2026-03-18,Chicken Sandwich,12,8.9,106.80,March
+2026-03-19,Flat White,32,5.5,176.00,March
+2026-03-19,Latte,40,5.8,232.00,March
+2026-03-19,Long Black,16,4.5,72.00,March
+2026-03-19,Iced Kopi,29,3.8,110.20,March
+2026-03-19,Croissant,19,4.2,79.80,March
+2026-03-19,Banana Bread,9,4.8,43.20,March
+2026-03-19,Kaya Toast,27,3.5,94.50,March
+2026-03-19,Chicken Sandwich,7,8.9,62.30,March
+2026-03-20,Flat White,29,5.5,159.50,March
+2026-03-20,Latte,48,5.8,278.40,March
+2026-03-20,Long Black,14,4.5,63.00,March
+2026-03-20,Iced Kopi,30,3.8,114.00,March
+2026-03-20,Croissant,22,4.2,92.40,March
+2026-03-20,Banana Bread,12,4.8,57.60,March
+2026-03-20,Kaya Toast,18,3.5,63.00,March
+2026-03-20,Chicken Sandwich,10,8.9,89.00,March
+2026-03-21,Flat White,39,5.5,214.50,March
+2026-03-21,Latte,49,5.8,284.20,March
+2026-03-21,Long Black,17,4.5,76.50,March
+2026-03-21,Iced Kopi,49,3.8,186.20,March
+2026-03-21,Croissant,29,4.2,121.80,March
+2026-03-21,Banana Bread,15,4.8,72.00,March
+2026-03-21,Kaya Toast,29,3.5,101.50,March
+2026-03-21,Chicken Sandwich,12,8.9,106.80,March
+2026-03-22,Flat White,44,5.5,242.00,March
+2026-03-22,Latte,39,5.8,226.20,March
+2026-03-22,Long Black,21,4.5,94.50,March
+2026-03-22,Iced Kopi,36,3.8,136.80,March
+2026-03-22,Croissant,20,4.2,84.00,March
+2026-03-22,Banana Bread,17,4.8,81.60,March
+2026-03-22,Kaya Toast,34,3.5,119.00,March
+2026-03-22,Chicken Sandwich,12,8.9,106.80,March
+2026-03-24,Flat White,24,5.5,132.00,March
+2026-03-24,Latte,39,5.8,226.20,March
+2026-03-24,Long Black,14,4.5,63.00,March
+2026-03-24,Iced Kopi,31,3.8,117.80,March
+2026-03-24,Croissant,23,4.2,96.60,March
+2026-03-24,Banana Bread,14,4.8,67.20,March
+2026-03-24,Kaya Toast,19,3.5,66.50,March
+2026-03-24,Chicken Sandwich,14,8.9,124.60,March
+2026-03-25,Flat White,28,5.5,154.00,March
+2026-03-25,Latte,39,5.8,226.20,March
+2026-03-25,Long Black,13,4.5,58.50,March
+2026-03-25,Iced Kopi,29,3.8,110.20,March
+2026-03-25,Croissant,11,4.2,46.20,March
+2026-03-25,Banana Bread,16,4.8,76.80,March
+2026-03-25,Kaya Toast,28,3.5,98.00,March
+2026-03-25,Chicken Sandwich,7,8.9,62.30,March
+2026-03-26,Flat White,19,5.5,104.50,March
+2026-03-26,Latte,22,5.8,127.60,March
+2026-03-26,Long Black,18,4.5,81.00,March
+2026-03-26,Iced Kopi,27,3.8,102.60,March
+2026-03-26,Croissant,17,4.2,71.40,March
+2026-03-26,Banana Bread,11,4.8,52.80,March
+2026-03-26,Kaya Toast,21,3.5,73.50,March
+2026-03-26,Chicken Sandwich,7,8.9,62.30,March
+2026-03-27,Flat White,28,5.5,154.00,March
+2026-03-27,Latte,24,5.8,139.20,March
+2026-03-27,Long Black,14,4.5,63.00,March
+2026-03-27,Iced Kopi,31,3.8,117.80,March
+2026-03-27,Croissant,19,4.2,79.80,March
+2026-03-27,Banana Bread,11,4.8,52.80,March
+2026-03-27,Kaya Toast,18,3.5,63.00,March
+2026-03-27,Chicken Sandwich,10,8.9,89.00,March
+2026-03-28,Flat White,33,5.5,181.50,March
+2026-03-28,Latte,54,5.8,313.20,March
+2026-03-28,Long Black,21,4.5,94.50,March
+2026-03-28,Iced Kopi,38,3.8,144.40,March
+2026-03-28,Croissant,21,4.2,88.20,March
+2026-03-28,Banana Bread,13,4.8,62.40,March
+2026-03-28,Kaya Toast,24,3.5,84.00,March
+2026-03-28,Chicken Sandwich,12,8.9,106.80,March
+2026-03-29,Flat White,38,5.5,209.00,March
+2026-03-29,Latte,47,5.8,272.60,March
+2026-03-29,Long Black,21,4.5,94.50,March
+2026-03-29,Iced Kopi,51,3.8,193.80,March
+2026-03-29,Croissant,20,4.2,84.00,March
+2026-03-29,Banana Bread,15,4.8,72.00,March
+2026-03-29,Kaya Toast,40,3.5,140.00,March
+2026-03-29,Chicken Sandwich,9,8.9,80.10,March
+2026-03-31,Flat White,25,5.5,137.50,March
+2026-03-31,Latte,35,5.8,203.00,March
+2026-03-31,Long Black,15,4.5,67.50,March
+2026-03-31,Iced Kopi,32,3.8,121.60,March
+2026-03-31,Croissant,17,4.2,71.40,March
+2026-03-31,Banana Bread,12,4.8,57.60,March
+2026-03-31,Kaya Toast,22,3.5,77.00,March
+2026-03-31,Chicken Sandwich,11,8.9,97.90,March
+2026-04-01,Flat White,18,5.5,99.00,April
+2026-04-01,Latte,29,5.8,168.20,April
+2026-04-01,Long Black,15,4.5,67.50,April
+2026-04-01,Iced Kopi,25,3.8,95.00,April
+2026-04-01,Croissant,15,4.2,63.00,April
+2026-04-01,Banana Bread,14,4.8,67.20,April
+2026-04-01,Kaya Toast,20,3.5,70.00,April
+2026-04-01,Chicken Sandwich,11,8.9,97.90,April
+2026-04-02,Flat White,33,5.5,181.50,April
+2026-04-02,Latte,37,5.8,214.60,April
+2026-04-02,Long Black,17,4.5,76.50,April
+2026-04-02,Iced Kopi,30,3.8,114.00,April
+2026-04-02,Croissant,13,4.2,54.60,April
+2026-04-02,Banana Bread,12,4.8,57.60,April
+2026-04-02,Kaya Toast,25,3.5,87.50,April
+2026-04-02,Chicken Sandwich,9,8.9,80.10,April
+2026-04-03,Flat White,28,5.5,154.00,April
+2026-04-03,Latte,40,5.8,232.00,April
+2026-04-03,Long Black,13,4.5,58.50,April
+2026-04-03,Iced Kopi,35,3.8,133.00,April
+2026-04-03,Croissant,25,4.2,105.00,April
+2026-04-03,Banana Bread,11,4.8,52.80,April
+2026-04-03,Kaya Toast,23,3.5,80.50,April
+2026-04-03,Chicken Sandwich,10,8.9,89.00,April
+2026-04-04,Flat White,46,5.5,253.00,April
+2026-04-04,Latte,48,5.8,278.40,April
+2026-04-04,Long Black,23,4.5,103.50,April
+2026-04-04,Iced Kopi,36,3.8,136.80,April
+2026-04-04,Croissant,24,4.2,100.80,April
+2026-04-04,Banana Bread,16,4.8,76.80,April
+2026-04-04,Kaya Toast,22,3.5,77.00,April
+2026-04-04,Chicken Sandwich,16,8.9,142.40,April
+2026-04-05,Flat White,43,5.5,236.50,April
+2026-04-05,Latte,34,5.8,197.20,April
+2026-04-05,Long Black,22,4.5,99.00,April
+2026-04-05,Iced Kopi,40,3.8,152.00,April
+2026-04-05,Croissant,26,4.2,109.20,April
+2026-04-05,Banana Bread,17,4.8,81.60,April
+2026-04-05,Kaya Toast,23,3.5,80.50,April
+2026-04-05,Chicken Sandwich,13,8.9,115.70,April
+2026-04-07,Flat White,37,5.5,203.50,April
+2026-04-07,Latte,31,5.8,179.80,April
+2026-04-07,Long Black,12,4.5,54.00,April
+2026-04-07,Iced Kopi,23,3.8,87.40,April
+2026-04-07,Croissant,14,4.2,58.80,April
+2026-04-07,Banana Bread,13,4.8,62.40,April
+2026-04-07,Kaya Toast,30,3.5,105.00,April
+2026-04-07,Chicken Sandwich,11,8.9,97.90,April
+2026-04-08,Flat White,30,5.5,165.00,April
+2026-04-08,Latte,50,5.8,290.00,April
+2026-04-08,Long Black,14,4.5,63.00,April
+2026-04-08,Iced Kopi,27,3.8,102.60,April
+2026-04-08,Croissant,20,4.2,84.00,April
+2026-04-08,Banana Bread,13,4.8,62.40,April
+2026-04-08,Kaya Toast,18,3.5,63.00,April
+2026-04-08,Chicken Sandwich,8,8.9,71.20,April
+2026-04-09,Flat White,31,5.5,170.50,April
+2026-04-09,Latte,37,5.8,214.60,April
+2026-04-09,Long Black,11,4.5,49.50,April
+2026-04-09,Iced Kopi,30,3.8,114.00,April
+2026-04-09,Croissant,16,4.2,67.20,April
+2026-04-09,Banana Bread,13,4.8,62.40,April
+2026-04-09,Kaya Toast,22,3.5,77.00,April
+2026-04-09,Chicken Sandwich,10,8.9,89.00,April
+2026-04-10,Flat White,27,5.5,148.50,April
+2026-04-10,Latte,42,5.8,243.60,April
+2026-04-10,Long Black,19,4.5,85.50,April
+2026-04-10,Iced Kopi,29,3.8,110.20,April
+2026-04-10,Croissant,21,4.2,88.20,April
+2026-04-10,Banana Bread,10,4.8,48.00,April
+2026-04-10,Kaya Toast,23,3.5,80.50,April
+2026-04-10,Chicken Sandwich,11,8.9,97.90,April
+2026-04-11,Flat White,46,5.5,253.00,April
+2026-04-11,Latte,43,5.8,249.40,April
+2026-04-11,Long Black,20,4.5,90.00,April
+2026-04-11,Iced Kopi,42,3.8,159.60,April
+2026-04-11,Croissant,19,4.2,79.80,April
+2026-04-11,Banana Bread,16,4.8,76.80,April
+2026-04-11,Kaya Toast,27,3.5,94.50,April
+2026-04-11,Chicken Sandwich,14,8.9,124.60,April
+2026-04-12,Flat White,31,5.5,170.50,April
+2026-04-12,Latte,32,5.8,185.60,April
+2026-04-12,Long Black,20,4.5,90.00,April
+2026-04-12,Iced Kopi,42,3.8,159.60,April
+2026-04-12,Croissant,22,4.2,92.40,April
+2026-04-12,Banana Bread,18,4.8,86.40,April
+2026-04-12,Kaya Toast,28,3.5,98.00,April
+2026-04-12,Chicken Sandwich,12,8.9,106.80,April
+2026-04-14,Flat White,32,5.5,176.00,April
+2026-04-14,Latte,25,5.8,145.00,April
+2026-04-14,Long Black,13,4.5,58.50,April
+2026-04-14,Iced Kopi,31,3.8,117.80,April
+2026-04-14,Croissant,21,4.2,88.20,April
+2026-04-14,Banana Bread,12,4.8,57.60,April
+2026-04-14,Kaya Toast,24,3.5,84.00,April
+2026-04-14,Chicken Sandwich,9,8.9,80.10,April
+2026-04-15,Flat White,31,5.5,170.50,April
+2026-04-15,Latte,47,5.8,272.60,April
+2026-04-15,Long Black,13,4.5,58.50,April
+2026-04-15,Iced Kopi,45,3.8,171.00,April
+2026-04-15,Croissant,16,4.2,67.20,April
+2026-04-15,Banana Bread,12,4.8,57.60,April
+2026-04-15,Kaya Toast,23,3.5,80.50,April
+2026-04-15,Chicken Sandwich,12,8.9,106.80,April
+2026-04-16,Flat White,22,5.5,121.00,April
+2026-04-16,Latte,21,5.8,121.80,April
+2026-04-16,Long Black,17,4.5,76.50,April
+2026-04-16,Iced Kopi,36,3.8,136.80,April
+2026-04-16,Croissant,21,4.2,88.20,April
+2026-04-16,Banana Bread,18,4.8,86.40,April
+2026-04-16,Kaya Toast,24,3.5,84.00,April
+2026-04-16,Chicken Sandwich,11,8.9,97.90,April
+2026-04-17,Flat White,34,5.5,187.00,April
+2026-04-17,Latte,38,5.8,220.40,April
+2026-04-17,Long Black,20,4.5,90.00,April
+2026-04-17,Iced Kopi,24,3.8,91.20,April
+2026-04-17,Croissant,17,4.2,71.40,April
+2026-04-17,Banana Bread,4,4.8,19.20,April
+2026-04-17,Kaya Toast,26,3.5,91.00,April
+2026-04-17,Chicken Sandwich,9,8.9,80.10,April
+2026-04-18,Flat White,43,5.5,236.50,April
+2026-04-18,Latte,61,5.8,353.80,April
+2026-04-18,Long Black,20,4.5,90.00,April
+2026-04-18,Iced Kopi,39,3.8,148.20,April
+2026-04-18,Croissant,22,4.2,92.40,April
+2026-04-18,Banana Bread,14,4.8,67.20,April
+2026-04-18,Kaya Toast,27,3.5,94.50,April
+2026-04-18,Chicken Sandwich,14,8.9,124.60,April
+2026-04-19,Flat White,38,5.5,209.00,April
+2026-04-19,Latte,46,5.8,266.80,April
+2026-04-19,Long Black,19,4.5,85.50,April
+2026-04-19,Iced Kopi,46,3.8,174.80,April
+2026-04-19,Croissant,26,4.2,109.20,April
+2026-04-19,Banana Bread,16,4.8,76.80,April
+2026-04-19,Kaya Toast,32,3.5,112.00,April
+2026-04-19,Chicken Sandwich,13,8.9,115.70,April
+2026-04-21,Flat White,22,5.5,121.00,April
+2026-04-21,Latte,45,5.8,261.00,April
+2026-04-21,Long Black,17,4.5,76.50,April
+2026-04-21,Iced Kopi,25,3.8,95.00,April
+2026-04-21,Croissant,22,4.2,92.40,April
+2026-04-21,Banana Bread,13,4.8,62.40,April
+2026-04-21,Kaya Toast,16,3.5,56.00,April
+2026-04-21,Chicken Sandwich,13,8.9,115.70,April
+2026-04-22,Flat White,31,5.5,170.50,April
+2026-04-22,Latte,41,5.8,237.80,April
+2026-04-22,Long Black,16,4.5,72.00,April
+2026-04-22,Iced Kopi,30,3.8,114.00,April
+2026-04-22,Croissant,13,4.2,54.60,April
+2026-04-22,Banana Bread,14,4.8,67.20,April
+2026-04-22,Kaya Toast,23,3.5,80.50,April
+2026-04-22,Chicken Sandwich,9,8.9,80.10,April
+2026-04-23,Flat White,31,5.5,170.50,April
+2026-04-23,Latte,36,5.8,208.80,April
+2026-04-23,Long Black,17,4.5,76.50,April
+2026-04-23,Iced Kopi,29,3.8,110.20,April
+2026-04-23,Croissant,18,4.2,75.60,April
+2026-04-23,Banana Bread,7,4.8,33.60,April
+2026-04-23,Kaya Toast,21,3.5,73.50,April
+2026-04-23,Chicken Sandwich,11,8.9,97.90,April
+2026-04-24,Flat White,36,5.5,198.00,April
+2026-04-24,Latte,33,5.8,191.40,April
+2026-04-24,Long Black,15,4.5,67.50,April
+2026-04-24,Iced Kopi,41,3.8,155.80,April
+2026-04-24,Croissant,17,4.2,71.40,April
+2026-04-24,Banana Bread,14,4.8,67.20,April
+2026-04-24,Kaya Toast,30,3.5,105.00,April
+2026-04-24,Chicken Sandwich,10,8.9,89.00,April
+2026-04-25,Flat White,45,5.5,247.50,April
+2026-04-25,Latte,41,5.8,237.80,April
+2026-04-25,Long Black,21,4.5,94.50,April
+2026-04-25,Iced Kopi,40,3.8,152.00,April
+2026-04-25,Croissant,24,4.2,100.80,April
+2026-04-25,Banana Bread,19,4.8,91.20,April
+2026-04-25,Kaya Toast,40,3.5,140.00,April
+2026-04-25,Chicken Sandwich,12,8.9,106.80,April
+2026-04-26,Flat White,34,5.5,187.00,April
+2026-04-26,Latte,49,5.8,284.20,April
+2026-04-26,Long Black,17,4.5,76.50,April
+2026-04-26,Iced Kopi,43,3.8,163.40,April
+2026-04-26,Croissant,26,4.2,109.20,April
+2026-04-26,Banana Bread,15,4.8,72.00,April
+2026-04-26,Kaya Toast,32,3.5,112.00,April
+2026-04-26,Chicken Sandwich,10,8.9,89.00,April
+2026-04-28,Flat White,33,5.5,181.50,April
+2026-04-28,Latte,25,5.8,145.00,April
+2026-04-28,Long Black,13,4.5,58.50,April
+2026-04-28,Iced Kopi,28,3.8,106.40,April
+2026-04-28,Croissant,17,4.2,71.40,April
+2026-04-28,Banana Bread,14,4.8,67.20,April
+2026-04-28,Kaya Toast,23,3.5,80.50,April
+2026-04-28,Chicken Sandwich,9,8.9,80.10,April
+2026-04-29,Flat White,32,5.5,176.00,April
+2026-04-29,Latte,46,5.8,266.80,April
+2026-04-29,Long Black,15,4.5,67.50,April
+2026-04-29,Iced Kopi,33,3.8,125.40,April
+2026-04-29,Croissant,23,4.2,96.60,April
+2026-04-29,Banana Bread,13,4.8,62.40,April
+2026-04-29,Kaya Toast,17,3.5,59.50,April
+2026-04-29,Chicken Sandwich,15,8.9,133.50,April
+2026-04-30,Flat White,41,5.5,225.50,April
+2026-04-30,Latte,22,5.8,127.60,April
+2026-04-30,Long Black,15,4.5,67.50,April
+2026-04-30,Iced Kopi,34,3.8,129.20,April
+2026-04-30,Croissant,22,4.2,92.40,April
+2026-04-30,Banana Bread,14,4.8,67.20,April
+2026-04-30,Kaya Toast,21,3.5,73.50,April
+2026-04-30,Chicken Sandwich,8,8.9,71.20,April
+2026-05-01,Flat White,25,5.5,137.50,May
+2026-05-01,Latte,37,5.8,214.60,May
+2026-05-01,Long Black,10,4.5,45.00,May
+2026-05-01,Iced Kopi,20,3.8,76.00,May
+2026-05-01,Croissant,16,4.2,67.20,May
+2026-05-01,Banana Bread,6,4.8,28.80,May
+2026-05-01,Kaya Toast,18,3.5,63.00,May
+2026-05-01,Chicken Sandwich,8,8.9,71.20,May
+2026-05-02,Flat White,35,5.5,192.50,May
+2026-05-02,Latte,35,5.8,203.00,May
+2026-05-02,Long Black,14,4.5,63.00,May
+2026-05-02,Iced Kopi,32,3.8,121.60,May
+2026-05-02,Croissant,20,4.2,84.00,May
+2026-05-02,Banana Bread,12,4.8,57.60,May
+2026-05-02,Kaya Toast,25,3.5,87.50,May
+2026-05-02,Chicken Sandwich,13,8.9,115.70,May
+2026-05-03,Flat White,39,5.5,214.50,May
+2026-05-03,Latte,51,5.8,295.80,May
+2026-05-03,Long Black,15,4.5,67.50,May
+2026-05-03,Iced Kopi,32,3.8,121.60,May
+2026-05-03,Croissant,12,4.2,50.40,May
+2026-05-03,Banana Bread,18,4.8,86.40,May
+2026-05-03,Kaya Toast,22,3.5,77.00,May
+2026-05-03,Chicken Sandwich,11,8.9,97.90,May
+2026-05-05,Flat White,28,5.5,154.00,May
+2026-05-05,Latte,21,5.8,121.80,May
+2026-05-05,Long Black,14,4.5,63.00,May
+2026-05-05,Iced Kopi,26,3.8,98.80,May
+2026-05-05,Croissant,9,4.2,37.80,May
+2026-05-05,Banana Bread,11,4.8,52.80,May
+2026-05-05,Kaya Toast,25,3.5,87.50,May
+2026-05-05,Chicken Sandwich,5,8.9,44.50,May
+2026-05-06,Flat White,29,5.5,159.50,May
+2026-05-06,Latte,32,5.8,185.60,May
+2026-05-06,Long Black,14,4.5,63.00,May
+2026-05-06,Iced Kopi,29,3.8,110.20,May
+2026-05-06,Croissant,20,4.2,84.00,May
+2026-05-06,Banana Bread,10,4.8,48.00,May
+2026-05-06,Kaya Toast,23,3.5,80.50,May
+2026-05-06,Chicken Sandwich,8,8.9,71.20,May
+2026-05-07,Flat White,29,5.5,159.50,May
+2026-05-07,Latte,25,5.8,145.00,May
+2026-05-07,Long Black,13,4.5,58.50,May
+2026-05-07,Iced Kopi,37,3.8,140.60,May
+2026-05-07,Croissant,17,4.2,71.40,May
+2026-05-07,Banana Bread,10,4.8,48.00,May
+2026-05-07,Kaya Toast,14,3.5,49.00,May
+2026-05-07,Chicken Sandwich,7,8.9,62.30,May
+2026-05-08,Flat White,26,5.5,143.00,May
+2026-05-08,Latte,36,5.8,208.80,May
+2026-05-08,Long Black,14,4.5,63.00,May
+2026-05-08,Iced Kopi,30,3.8,114.00,May
+2026-05-08,Croissant,16,4.2,67.20,May
+2026-05-08,Banana Bread,14,4.8,67.20,May
+2026-05-08,Kaya Toast,18,3.5,63.00,May
+2026-05-08,Chicken Sandwich,7,8.9,62.30,May
+2026-05-09,Flat White,37,5.5,203.50,May
+2026-05-09,Latte,40,5.8,232.00,May
+2026-05-09,Long Black,16,4.5,72.00,May
+2026-05-09,Iced Kopi,31,3.8,117.80,May
+2026-05-09,Croissant,20,4.2,84.00,May
+2026-05-09,Banana Bread,15,4.8,72.00,May
+2026-05-09,Kaya Toast,27,3.5,94.50,May
+2026-05-09,Chicken Sandwich,9,8.9,80.10,May
+2026-05-10,Flat White,35,5.5,192.50,May
+2026-05-10,Latte,40,5.8,232.00,May
+2026-05-10,Long Black,14,4.5,63.00,May
+2026-05-10,Iced Kopi,39,3.8,148.20,May
+2026-05-10,Croissant,20,4.2,84.00,May
+2026-05-10,Banana Bread,13,4.8,62.40,May
+2026-05-10,Kaya Toast,29,3.5,101.50,May
+2026-05-10,Chicken Sandwich,14,8.9,124.60,May
+2026-05-12,Flat White,21,5.5,115.50,May
+2026-05-12,Latte,33,5.8,191.40,May
+2026-05-12,Long Black,10,4.5,45.00,May
+2026-05-12,Iced Kopi,40,3.8,152.00,May
+2026-05-12,Croissant,14,4.2,58.80,May
+2026-05-12,Banana Bread,13,4.8,62.40,May
+2026-05-12,Kaya Toast,16,3.5,56.00,May
+2026-05-12,Chicken Sandwich,10,8.9,89.00,May
+2026-05-13,Flat White,37,5.5,203.50,May
+2026-05-13,Latte,13,5.8,75.40,May
+2026-05-13,Long Black,12,4.5,54.00,May
+2026-05-13,Iced Kopi,30,3.8,114.00,May
+2026-05-13,Croissant,15,4.2,63.00,May
+2026-05-13,Banana Bread,9,4.8,43.20,May
+2026-05-13,Kaya Toast,29,3.5,101.50,May
+2026-05-13,Chicken Sandwich,9,8.9,80.10,May
+2026-05-14,Flat White,15,5.5,82.50,May
+2026-05-14,Latte,36,5.8,208.80,May
+2026-05-14,Long Black,8,4.5,36.00,May
+2026-05-14,Iced Kopi,33,3.8,125.40,May
+2026-05-14,Croissant,14,4.2,58.80,May
+2026-05-14,Banana Bread,11,4.8,52.80,May
+2026-05-14,Kaya Toast,25,3.5,87.50,May
+2026-05-14,Chicken Sandwich,9,8.9,80.10,May
+2026-05-15,Flat White,17,5.5,93.50,May
+2026-05-15,Latte,19,5.8,110.20,May
+2026-05-15,Long Black,17,4.5,76.50,May
+2026-05-15,Iced Kopi,31,3.8,117.80,May
+2026-05-15,Croissant,13,4.2,54.60,May
+2026-05-15,Banana Bread,12,4.8,57.60,May
+2026-05-15,Kaya Toast,21,3.5,73.50,May
+2026-05-15,Chicken Sandwich,10,8.9,89.00,May
+2026-05-16,Flat White,20,5.5,110.00,May
+2026-05-16,Latte,37,5.8,214.60,May
+2026-05-16,Long Black,20,4.5,90.00,May
+2026-05-16,Iced Kopi,39,3.8,148.20,May
+2026-05-16,Croissant,24,4.2,100.80,May
+2026-05-16,Banana Bread,8,4.8,38.40,May
+2026-05-16,Kaya Toast,26,3.5,91.00,May
+2026-05-16,Chicken Sandwich,12,8.9,106.80,May
+2026-05-17,Flat White,47,5.5,258.50,May
+2026-05-17,Latte,33,5.8,191.40,May
+2026-05-17,Long Black,16,4.5,72.00,May
+2026-05-17,Iced Kopi,35,3.8,133.00,May
+2026-05-17,Croissant,24,4.2,100.80,May
+2026-05-17,Banana Bread,12,4.8,57.60,May
+2026-05-17,Kaya Toast,30,3.5,105.00,May
+2026-05-17,Chicken Sandwich,10,8.9,89.00,May
+2026-05-19,Flat White,26,5.5,143.00,May
+2026-05-19,Latte,27,5.8,156.60,May
+2026-05-19,Long Black,13,4.5,58.50,May
+2026-05-19,Iced Kopi,22,3.8,83.60,May
+2026-05-19,Croissant,10,4.2,42.00,May
+2026-05-19,Banana Bread,13,4.8,62.40,May
+2026-05-19,Kaya Toast,21,3.5,73.50,May
+2026-05-19,Chicken Sandwich,7,8.9,62.30,May
+2026-05-20,Flat White,26,5.5,143.00,May
+2026-05-20,Latte,37,5.8,214.60,May
+2026-05-20,Long Black,10,4.5,45.00,May
+2026-05-20,Iced Kopi,26,3.8,98.80,May
+2026-05-20,Croissant,18,4.2,75.60,May
+2026-05-20,Banana Bread,12,4.8,57.60,May
+2026-05-20,Kaya Toast,18,3.5,63.00,May
+2026-05-20,Chicken Sandwich,4,8.9,35.60,May
+2026-05-21,Flat White,32,5.5,176.00,May
+2026-05-21,Latte,32,5.8,185.60,May
+2026-05-21,Long Black,13,4.5,58.50,May
+2026-05-21,Iced Kopi,25,3.8,95.00,May
+2026-05-21,Croissant,17,4.2,71.40,May
+2026-05-21,Banana Bread,9,4.8,43.20,May
+2026-05-21,Kaya Toast,15,3.5,52.50,May
+2026-05-21,Chicken Sandwich,7,8.9,62.30,May
+2026-05-22,Flat White,21,5.5,115.50,May
+2026-05-22,Latte,26,5.8,150.80,May
+2026-05-22,Long Black,10,4.5,45.00,May
+2026-05-22,Iced Kopi,30,3.8,114.00,May
+2026-05-22,Croissant,11,4.2,46.20,May
+2026-05-22,Banana Bread,12,4.8,57.60,May
+2026-05-22,Kaya Toast,15,3.5,52.50,May
+2026-05-22,Chicken Sandwich,9,8.9,80.10,May
+2026-05-23,Flat White,40,5.5,220.00,May
+2026-05-23,Latte,41,5.8,237.80,May
+2026-05-23,Long Black,15,4.5,67.50,May
+2026-05-23,Iced Kopi,35,3.8,133.00,May
+2026-05-23,Croissant,21,4.2,88.20,May
+2026-05-23,Banana Bread,9,4.8,43.20,May
+2026-05-23,Kaya Toast,23,3.5,80.50,May
+2026-05-23,Chicken Sandwich,12,8.9,106.80,May
+2026-05-24,Flat White,30,5.5,165.00,May
+2026-05-24,Latte,40,5.8,232.00,May
+2026-05-24,Long Black,19,4.5,85.50,May
+2026-05-24,Iced Kopi,39,3.8,148.20,May
+2026-05-24,Croissant,24,4.2,100.80,May
+2026-05-24,Banana Bread,15,4.8,72.00,May
+2026-05-24,Kaya Toast,24,3.5,84.00,May
+2026-05-24,Chicken Sandwich,11,8.9,97.90,May
+2026-05-26,Flat White,23,5.5,126.50,May
+2026-05-26,Latte,28,5.8,162.40,May
+2026-05-26,Long Black,12,4.5,54.00,May
+2026-05-26,Iced Kopi,16,3.8,60.80,May
+2026-05-26,Croissant,15,4.2,63.00,May
+2026-05-26,Banana Bread,10,4.8,48.00,May
+2026-05-26,Kaya Toast,15,3.5,52.50,May
+2026-05-26,Chicken Sandwich,8,8.9,71.20,May
+2026-05-27,Flat White,28,5.5,154.00,May
+2026-05-27,Latte,29,5.8,168.20,May
+2026-05-27,Long Black,19,4.5,85.50,May
+2026-05-27,Iced Kopi,11,3.8,41.80,May
+2026-05-27,Croissant,15,4.2,63.00,May
+2026-05-27,Banana Bread,6,4.8,28.80,May
+2026-05-27,Kaya Toast,24,3.5,84.00,May
+2026-05-27,Chicken Sandwich,14,8.9,124.60,May
+2026-05-28,Flat White,11,5.5,60.50,May
+2026-05-28,Latte,31,5.8,179.80,May
+2026-05-28,Long Black,15,4.5,67.50,May
+2026-05-28,Iced Kopi,25,3.8,95.00,May
+2026-05-28,Croissant,18,4.2,75.60,May
+2026-05-28,Banana Bread,5,4.8,24.00,May
+2026-05-28,Kaya Toast,23,3.5,80.50,May
+2026-05-28,Chicken Sandwich,9,8.9,80.10,May
+2026-05-29,Flat White,25,5.5,137.50,May
+2026-05-29,Latte,26,5.8,150.80,May
+2026-05-29,Long Black,15,4.5,67.50,May
+2026-05-29,Iced Kopi,24,3.8,91.20,May
+2026-05-29,Croissant,17,4.2,71.40,May
+2026-05-29,Banana Bread,9,4.8,43.20,May
+2026-05-29,Kaya Toast,9,3.5,31.50,May
+2026-05-29,Chicken Sandwich,8,8.9,71.20,May
+2026-05-30,Flat White,33,5.5,181.50,May
+2026-05-30,Latte,44,5.8,255.20,May
+2026-05-30,Long Black,14,4.5,63.00,May
+2026-05-30,Iced Kopi,34,3.8,129.20,May
+2026-05-30,Croissant,23,4.2,96.60,May
+2026-05-30,Banana Bread,14,4.8,67.20,May
+2026-05-30,Kaya Toast,31,3.5,108.50,May
+2026-05-30,Chicken Sandwich,15,8.9,133.50,May
+2026-05-31,Flat White,27,5.5,148.50,May
+2026-05-31,Latte,26,5.8,150.80,May
+2026-05-31,Long Black,20,4.5,90.00,May
+2026-05-31,Iced Kopi,44,3.8,167.20,May
+2026-05-31,Croissant,24,4.2,100.80,May
+2026-05-31,Banana Bread,15,4.8,72.00,May
+2026-05-31,Kaya Toast,23,3.5,80.50,May
+2026-05-31,Chicken Sandwich,10,8.9,89.00,May
+2026-06-02,Flat White,36,5.5,198.00,June
+2026-06-02,Latte,31,5.8,179.80,June
+2026-06-02,Long Black,11,4.5,49.50,June
+2026-06-02,Iced Kopi,27,3.8,102.60,June
+2026-06-02,Croissant,29,4.2,121.80,June
+2026-06-02,Banana Bread,18,4.8,86.40,June
+2026-06-02,Kaya Toast,21,3.5,73.50,June
+2026-06-02,Chicken Sandwich,9,8.9,80.10,June
+2026-06-03,Flat White,32,5.5,176.00,June
+2026-06-03,Latte,32,5.8,185.60,June
+2026-06-03,Long Black,20,4.5,90.00,June
+2026-06-03,Iced Kopi,33,3.8,125.40,June
+2026-06-03,Croissant,16,4.2,67.20,June
+2026-06-03,Banana Bread,16,4.8,76.80,June
+2026-06-03,Kaya Toast,22,3.5,77.00,June
+2026-06-03,Chicken Sandwich,11,8.9,97.90,June
+2026-06-04,Flat White,31,5.5,170.50,June
+2026-06-04,Latte,35,5.8,203.00,June
+2026-06-04,Long Black,17,4.5,76.50,June
+2026-06-04,Iced Kopi,29,3.8,110.20,June
+2026-06-04,Croissant,13,4.2,54.60,June
+2026-06-04,Banana Bread,8,4.8,38.40,June
+2026-06-04,Kaya Toast,19,3.5,66.50,June
+2026-06-04,Chicken Sandwich,9,8.9,80.10,June
+2026-06-05,Flat White,31,5.5,170.50,June
+2026-06-05,Latte,38,5.8,220.40,June
+2026-06-05,Long Black,18,4.5,81.00,June
+2026-06-05,Iced Kopi,34,3.8,129.20,June
+2026-06-05,Croissant,17,4.2,71.40,June
+2026-06-05,Banana Bread,11,4.8,52.80,June
+2026-06-05,Kaya Toast,15,3.5,52.50,June
+2026-06-05,Chicken Sandwich,10,8.9,89.00,June
+2026-06-06,Flat White,43,5.5,236.50,June
+2026-06-06,Latte,53,5.8,307.40,June
+2026-06-06,Long Black,21,4.5,94.50,June
+2026-06-06,Iced Kopi,42,3.8,159.60,June
+2026-06-06,Croissant,29,4.2,121.80,June
+2026-06-06,Banana Bread,17,4.8,81.60,June
+2026-06-06,Kaya Toast,35,3.5,122.50,June
+2026-06-06,Chicken Sandwich,15,8.9,133.50,June
+2026-06-07,Flat White,41,5.5,225.50,June
+2026-06-07,Latte,58,5.8,336.40,June
+2026-06-07,Long Black,20,4.5,90.00,June
+2026-06-07,Iced Kopi,41,3.8,155.80,June
+2026-06-07,Croissant,23,4.2,96.60,June
+2026-06-07,Banana Bread,15,4.8,72.00,June
+2026-06-07,Kaya Toast,38,3.5,133.00,June
+2026-06-07,Chicken Sandwich,18,8.9,160.20,June
+2026-06-09,Flat White,31,5.5,170.50,June
+2026-06-09,Latte,41,5.8,237.80,June
+2026-06-09,Long Black,20,4.5,90.00,June
+2026-06-09,Iced Kopi,38,3.8,144.40,June
+2026-06-09,Croissant,24,4.2,100.80,June
+2026-06-09,Banana Bread,10,4.8,48.00,June
+2026-06-09,Kaya Toast,21,3.5,73.50,June
+2026-06-09,Chicken Sandwich,12,8.9,106.80,June
+2026-06-10,Flat White,39,5.5,214.50,June
+2026-06-10,Latte,38,5.8,220.40,June
+2026-06-10,Long Black,14,4.5,63.00,June
+2026-06-10,Iced Kopi,31,3.8,117.80,June
+2026-06-10,Croissant,17,4.2,71.40,June
+2026-06-10,Banana Bread,11,4.8,52.80,June
+2026-06-10,Kaya Toast,31,3.5,108.50,June
+2026-06-10,Chicken Sandwich,9,8.9,80.10,June
+2026-06-11,Flat White,31,5.5,170.50,June
+2026-06-11,Latte,52,5.8,301.60,June
+2026-06-11,Long Black,20,4.5,90.00,June
+2026-06-11,Iced Kopi,35,3.8,133.00,June
+2026-06-11,Croissant,17,4.2,71.40,June
+2026-06-11,Banana Bread,14,4.8,67.20,June
+2026-06-11,Kaya Toast,31,3.5,108.50,June
+2026-06-11,Chicken Sandwich,12,8.9,106.80,June
+2026-06-12,Flat White,38,5.5,209.00,June
+2026-06-12,Latte,38,5.8,220.40,June
+2026-06-12,Long Black,18,4.5,81.00,June
+2026-06-12,Iced Kopi,32,3.8,121.60,June
+2026-06-12,Croissant,21,4.2,88.20,June
+2026-06-12,Banana Bread,16,4.8,76.80,June
+2026-06-12,Kaya Toast,18,3.5,63.00,June
+2026-06-12,Chicken Sandwich,11,8.9,97.90,June
+2026-06-13,Flat White,42,5.5,231.00,June
+2026-06-13,Latte,45,5.8,261.00,June
+2026-06-13,Long Black,20,4.5,90.00,June
+2026-06-13,Iced Kopi,48,3.8,182.40,June
+2026-06-13,Croissant,33,4.2,138.60,June
+2026-06-13,Banana Bread,18,4.8,86.40,June
+2026-06-13,Kaya Toast,33,3.5,115.50,June
+2026-06-13,Chicken Sandwich,11,8.9,97.90,June
+2026-06-14,Flat White,51,5.5,280.50,June
+2026-06-14,Latte,50,5.8,290.00,June
+2026-06-14,Long Black,21,4.5,94.50,June
+2026-06-14,Iced Kopi,36,3.8,136.80,June
+2026-06-14,Croissant,26,4.2,109.20,June
+2026-06-14,Banana Bread,14,4.8,67.20,June
+2026-06-14,Kaya Toast,32,3.5,112.00,June
+2026-06-14,Chicken Sandwich,15,8.9,133.50,June
+2026-06-16,Flat White,31,5.5,170.50,June
+2026-06-16,Latte,39,5.8,226.20,June
+2026-06-16,Long Black,14,4.5,63.00,June
+2026-06-16,Iced Kopi,42,3.8,159.60,June
+2026-06-16,Croissant,17,4.2,71.40,June
+2026-06-16,Banana Bread,9,4.8,43.20,June
+2026-06-16,Kaya Toast,23,3.5,80.50,June
+2026-06-16,Chicken Sandwich,9,8.9,80.10,June
+2026-06-17,Flat White,25,5.5,137.50,June
+2026-06-17,Latte,35,5.8,203.00,June
+2026-06-17,Long Black,17,4.5,76.50,June
+2026-06-17,Iced Kopi,26,3.8,98.80,June
+2026-06-17,Croissant,19,4.2,79.80,June
+2026-06-17,Banana Bread,16,4.8,76.80,June
+2026-06-17,Kaya Toast,27,3.5,94.50,June
+2026-06-17,Chicken Sandwich,10,8.9,89.00,June
+2026-06-18,Flat White,32,5.5,176.00,June
+2026-06-18,Latte,37,5.8,214.60,June
+2026-06-18,Long Black,16,4.5,72.00,June
+2026-06-18,Iced Kopi,37,3.8,140.60,June
+2026-06-18,Croissant,19,4.2,79.80,June
+2026-06-18,Banana Bread,7,4.8,33.60,June
+2026-06-18,Kaya Toast,24,3.5,84.00,June
+2026-06-18,Chicken Sandwich,9,8.9,80.10,June
+2026-06-19,Flat White,35,5.5,192.50,June
+2026-06-19,Latte,33,5.8,191.40,June
+2026-06-19,Long Black,17,4.5,76.50,June
+2026-06-19,Iced Kopi,46,3.8,174.80,June
+2026-06-19,Croissant,16,4.2,67.20,June
+2026-06-19,Banana Bread,10,4.8,48.00,June
+2026-06-19,Kaya Toast,18,3.5,63.00,June
+2026-06-19,Chicken Sandwich,6,8.9,53.40,June
+2026-06-20,Flat White,30,5.5,165.00,June
+2026-06-20,Latte,51,5.8,295.80,June
+2026-06-20,Long Black,19,4.5,85.50,June
+2026-06-20,Iced Kopi,32,3.8,121.60,June
+2026-06-20,Croissant,20,4.2,84.00,June
+2026-06-20,Banana Bread,18,4.8,86.40,June
+2026-06-20,Kaya Toast,28,3.5,98.00,June
+2026-06-20,Chicken Sandwich,13,8.9,115.70,June
+2026-06-21,Flat White,42,5.5,231.00,June
+2026-06-21,Latte,58,5.8,336.40,June
+2026-06-21,Long Black,27,4.5,121.50,June
+2026-06-21,Iced Kopi,49,3.8,186.20,June
+2026-06-21,Croissant,26,4.2,109.20,June
+2026-06-21,Banana Bread,17,4.8,81.60,June
+2026-06-21,Kaya Toast,39,3.5,136.50,June
+2026-06-21,Chicken Sandwich,17,8.9,151.30,June
+2026-06-23,Flat White,29,5.5,159.50,June
+2026-06-23,Latte,41,5.8,237.80,June
+2026-06-23,Long Black,17,4.5,76.50,June
+2026-06-23,Iced Kopi,33,3.8,125.40,June
+2026-06-23,Croissant,18,4.2,75.60,June
+2026-06-23,Banana Bread,10,4.8,48.00,June
+2026-06-23,Kaya Toast,22,3.5,77.00,June
+2026-06-23,Chicken Sandwich,8,8.9,71.20,June
+2026-06-24,Flat White,38,5.5,209.00,June
+2026-06-24,Latte,41,5.8,237.80,June
+2026-06-24,Long Black,13,4.5,58.50,June
+2026-06-24,Iced Kopi,41,3.8,155.80,June
+2026-06-24,Croissant,23,4.2,96.60,June
+2026-06-24,Banana Bread,8,4.8,38.40,June
+2026-06-24,Kaya Toast,32,3.5,112.00,June
+2026-06-24,Chicken Sandwich,12,8.9,106.80,June
+2026-06-25,Flat White,42,5.5,231.00,June
+2026-06-25,Latte,29,5.8,168.20,June
+2026-06-25,Long Black,18,4.5,81.00,June
+2026-06-25,Iced Kopi,36,3.8,136.80,June
+2026-06-25,Croissant,20,4.2,84.00,June
+2026-06-25,Banana Bread,13,4.8,62.40,June
+2026-06-25,Kaya Toast,29,3.5,101.50,June
+2026-06-25,Chicken Sandwich,8,8.9,71.20,June
+2026-06-26,Flat White,24,5.5,132.00,June
+2026-06-26,Latte,28,5.8,162.40,June
+2026-06-26,Long Black,15,4.5,67.50,June
+2026-06-26,Iced Kopi,29,3.8,110.20,June
+2026-06-26,Croissant,21,4.2,88.20,June
+2026-06-26,Banana Bread,14,4.8,67.20,June
+2026-06-26,Kaya Toast,24,3.5,84.00,June
+2026-06-26,Chicken Sandwich,9,8.9,80.10,June
+2026-06-27,Flat White,38,5.5,209.00,June
+2026-06-27,Latte,55,5.8,319.00,June
+2026-06-27,Long Black,24,4.5,108.00,June
+2026-06-27,Iced Kopi,44,3.8,167.20,June
+2026-06-27,Croissant,25,4.2,105.00,June
+2026-06-27,Banana Bread,21,4.8,100.80,June
+2026-06-27,Kaya Toast,29,3.5,101.50,June
+2026-06-27,Chicken Sandwich,15,8.9,133.50,June
+2026-06-28,Flat White,47,5.5,258.50,June
+2026-06-28,Latte,47,5.8,272.60,June
+2026-06-28,Long Black,24,4.5,108.00,June
+2026-06-28,Iced Kopi,36,3.8,136.80,June
+2026-06-28,Croissant,29,4.2,121.80,June
+2026-06-28,Banana Bread,17,4.8,81.60,June
+2026-06-28,Kaya Toast,25,3.5,87.50,June
+2026-06-28,Chicken Sandwich,15,8.9,133.50,June
+2026-06-30,Flat White,26,5.5,143.00,June
+2026-06-30,Latte,46,5.8,266.80,June
+2026-06-30,Long Black,14,4.5,63.00,June
+2026-06-30,Iced Kopi,32,3.8,121.60,June
+2026-06-30,Croissant,21,4.2,88.20,June
+2026-06-30,Banana Bread,12,4.8,57.60,June
+2026-06-30,Kaya Toast,25,3.5,87.50,June
+2026-06-30,Chicken Sandwich,10,8.9,89.00,June

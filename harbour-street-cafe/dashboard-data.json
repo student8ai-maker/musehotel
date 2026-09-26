@@ -1,0 +1,321 @@
+{
+ "generated": "2026-09-26",
+ "items": [
+  "Flat White",
+  "Latte",
+  "Long Black",
+  "Iced Kopi",
+  "Croissant",
+  "Banana Bread",
+  "Kaya Toast",
+  "Chicken Sandwich"
+ ],
+ "months": {
+  "January": {
+   "file": "2026-01-sales.csv",
+   "fileRows": 216,
+   "fileTotal": 22909.1,
+   "rows": 216,
+   "revenue": 22909.1,
+   "units": 4653,
+   "tradingDays": 27,
+   "firstDay": "2026-01-01",
+   "lastDay": "2026-01-31",
+   "removedRows": 0,
+   "removedRevenue": 0,
+   "removedDays": [],
+   "skipped": {},
+   "revenueCol": "Revenue",
+   "items": {
+    "Flat White": {
+     "revenue": 4180.0,
+     "units": 760
+    },
+    "Latte": {
+     "revenue": 5579.6,
+     "units": 962
+    },
+    "Long Black": {
+     "revenue": 1962.0,
+     "units": 436
+    },
+    "Iced Kopi": {
+     "revenue": 2971.6,
+     "units": 782
+    },
+    "Croissant": {
+     "revenue": 2066.4,
+     "units": 492
+    },
+    "Banana Bread": {
+     "revenue": 1603.2,
+     "units": 334
+    },
+    "Kaya Toast": {
+     "revenue": 2170.0,
+     "units": 620
+    },
+    "Chicken Sandwich": {
+     "revenue": 2376.3,
+     "units": 267
+    }
+   }
+  },
+  "February": {
+   "file": "2026-02-sales.csv",
+   "fileRows": 192,
+   "fileTotal": 18222.6,
+   "rows": 192,
+   "revenue": 18222.6,
+   "units": 3711,
+   "tradingDays": 24,
+   "firstDay": "2026-02-01",
+   "lastDay": "2026-02-28",
+   "removedRows": 0,
+   "removedRevenue": 0,
+   "removedDays": [],
+   "skipped": {},
+   "revenueCol": "Revenue",
+   "items": {
+    "Flat White": {
+     "revenue": 3234.0,
+     "units": 588
+    },
+    "Latte": {
+     "revenue": 4535.6,
+     "units": 782
+    },
+    "Long Black": {
+     "revenue": 1503.0,
+     "units": 334
+    },
+    "Iced Kopi": {
+     "revenue": 2473.8,
+     "units": 651
+    },
+    "Croissant": {
+     "revenue": 1709.4,
+     "units": 407
+    },
+    "Banana Bread": {
+     "revenue": 1348.8,
+     "units": 281
+    },
+    "Kaya Toast": {
+     "revenue": 1638.0,
+     "units": 468
+    },
+    "Chicken Sandwich": {
+     "revenue": 1780.0,
+     "units": 200
+    }
+   }
+  },
+  "March": {
+   "file": "2026-03-sales.xlsx",
+   "fileRows": 208,
+   "fileTotal": 23420.4,
+   "rows": 208,
+   "revenue": 23420.4,
+   "units": 4787,
+   "tradingDays": 26,
+   "firstDay": "2026-03-01",
+   "lastDay": "2026-03-31",
+   "removedRows": 0,
+   "removedRevenue": 0,
+   "removedDays": [],
+   "skipped": {},
+   "revenueCol": "Revenue",
+   "items": {
+    "Flat White": {
+     "revenue": 4345.0,
+     "units": 790
+    },
+    "Latte": {
+     "revenue": 5463.6,
+     "units": 942
+    },
+    "Long Black": {
+     "revenue": 1903.5,
+     "units": 423
+    },
+    "Iced Kopi": {
+     "revenue": 3366.8,
+     "units": 886
+    },
+    "Croissant": {
+     "revenue": 2167.2,
+     "units": 516
+    },
+    "Banana Bread": {
+     "revenue": 1598.4,
+     "units": 333
+    },
+    "Kaya Toast": {
+     "revenue": 2208.5,
+     "units": 631
+    },
+    "Chicken Sandwich": {
+     "revenue": 2367.4,
+     "units": 266
+    }
+   }
+  },
+  "April": {
+   "file": "2026-04-sales.csv",
+   "fileRows": 224,
+   "fileTotal": 26401.6,
+   "rows": 208,
+   "revenue": 24609.7,
+   "units": 4993,
+   "tradingDays": 26,
+   "firstDay": "2026-04-01",
+   "lastDay": "2026-04-30",
+   "removedRows": 16,
+   "removedRevenue": 1791.9,
+   "removedDays": [
+    "2026-04-14",
+    "2026-04-15"
+   ],
+   "skipped": {},
+   "revenueCol": "Revenue",
+   "items": {
+    "Flat White": {
+     "revenue": 4812.5,
+     "units": 875
+    },
+    "Latte": {
+     "revenue": 5794.2,
+     "units": 999
+    },
+    "Long Black": {
+     "revenue": 1953.0,
+     "units": 434
+    },
+    "Iced Kopi": {
+     "revenue": 3355.4,
+     "units": 883
+    },
+    "Croissant": {
+     "revenue": 2184.0,
+     "units": 520
+    },
+    "Banana Bread": {
+     "revenue": 1689.6,
+     "units": 352
+    },
+    "Kaya Toast": {
+     "revenue": 2240.0,
+     "units": 640
+    },
+    "Chicken Sandwich": {
+     "revenue": 2581.0,
+     "units": 290
+    }
+   }
+  },
+  "May": {
+   "file": "2026-05-sales.csv",
+   "fileRows": 216,
+   "fileTotal": 21837.7,
+   "rows": 216,
+   "revenue": 21837.7,
+   "units": 4449,
+   "tradingDays": 27,
+   "firstDay": "2026-05-01",
+   "lastDay": "2026-05-31",
+   "removedRows": 0,
+   "removedRevenue": 0,
+   "removedDays": [],
+   "skipped": {},
+   "revenueCol": "Amount (SGD)",
+   "items": {
+    "Flat White": {
+     "revenue": 4191.0,
+     "units": 762
+    },
+    "Latte": {
+     "revenue": 5075.0,
+     "units": 875
+    },
+    "Long Black": {
+     "revenue": 1719.0,
+     "units": 382
+    },
+    "Iced Kopi": {
+     "revenue": 3097.0,
+     "units": 815
+    },
+    "Croissant": {
+     "revenue": 1961.4,
+     "units": 467
+    },
+    "Banana Bread": {
+     "revenue": 1454.4,
+     "units": 303
+    },
+    "Kaya Toast": {
+     "revenue": 2061.5,
+     "units": 589
+    },
+    "Chicken Sandwich": {
+     "revenue": 2278.4,
+     "units": 256
+    }
+   }
+  },
+  "June": {
+   "file": "2026-06-sales.csv",
+   "fileRows": 200,
+   "fileTotal": 25193.0,
+   "rows": 200,
+   "revenue": 25193.0,
+   "units": 5123,
+   "tradingDays": 25,
+   "firstDay": "2026-06-02",
+   "lastDay": "2026-06-30",
+   "removedRows": 0,
+   "removedRevenue": 0,
+   "removedDays": [],
+   "skipped": {
+    "blank lines": 3,
+    "TOTAL line": 1
+   },
+   "revenueCol": "Revenue",
+   "items": {
+    "Flat White": {
+     "revenue": 4867.5,
+     "units": 885
+    },
+    "Latte": {
+     "revenue": 6095.8,
+     "units": 1051
+    },
+    "Long Black": {
+     "revenue": 2047.5,
+     "units": 455
+    },
+    "Iced Kopi": {
+     "revenue": 3454.2,
+     "units": 909
+    },
+    "Croissant": {
+     "revenue": 2263.8,
+     "units": 539
+    },
+    "Banana Bread": {
+     "revenue": 1632.0,
+     "units": 340
+    },
+    "Kaya Toast": {
+     "revenue": 2313.5,
+     "units": 661
+    },
+    "Chicken Sandwich": {
+     "revenue": 2518.7,
+     "units": 283
+    }
+   }
+  }
+ }
+}
