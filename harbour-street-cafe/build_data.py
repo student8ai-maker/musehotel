@@ -94,6 +94,7 @@ for month, name in MONTHS:
         "extraLines": extra,
         "revenueCol": header[4],
         "items": by_item,
+        "days": {d.isoformat(): round(sum(r[4] for r in kept if r[0] == d), 2) for d in days},
     }
     combined += [(l, month) for l in lines]
 
